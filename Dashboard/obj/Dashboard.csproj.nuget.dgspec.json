@@ -43,6 +43,10 @@
             "FontAwesome.Sharp": {
               "target": "Package",
               "version": "[6.3.0, )"
+            },
+            "LiveCharts": {
+              "target": "Package",
+              "version": "[0.9.7, )"
             }
           },
           "imports": [

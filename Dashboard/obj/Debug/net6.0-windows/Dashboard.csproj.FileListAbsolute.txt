@@ -19,3 +19,5 @@ C:\Users\jorda\Documents\visual\Dashboard\Dashboard\obj\Debug\net6.0-windows\Das
 C:\Users\jorda\Documents\visual\Dashboard\Dashboard\obj\Debug\net6.0-windows\Dashboard.genruntimeconfig.cache
 C:\Users\jorda\Documents\visual\Dashboard\Dashboard\obj\Debug\net6.0-windows\ref\Dashboard.dll
 C:\Users\jorda\Documents\visual\Dashboard\Dashboard\obj\Debug\net6.0-windows\Dashboard.Home.resources
+C:\Users\jorda\Documents\visual\Dashboard\Dashboard\bin\Debug\net6.0-windows\LiveCharts.dll
+C:\Users\jorda\Documents\visual\Dashboard\Dashboard\obj\Debug\net6.0-windows\Dashboard.Login.resources
