@@ -43,6 +43,7 @@
             pictureBox3 = new PictureBox();
             txtEmail = new TextBox();
             panel7 = new Panel();
+            pictureBox6 = new PictureBox();
             pictureBox4 = new PictureBox();
             txtPassword = new TextBox();
             panel8 = new Panel();
@@ -54,7 +55,6 @@
             btnMinimized = new FontAwesome.Sharp.IconButton();
             btnClose = new FontAwesome.Sharp.IconButton();
             label1 = new Label();
-            pictureBox6 = new PictureBox();
             panel2.SuspendLayout();
             tableLayoutPanel1.SuspendLayout();
             panel5.SuspendLayout();
@@ -67,12 +67,12 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             panel7.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox6).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
             panel8.SuspendLayout();
             panel9.SuspendLayout();
             tableLayoutPanel2.SuspendLayout();
             panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox6).BeginInit();
             SuspendLayout();
             // 
             // panel2
@@ -139,12 +139,13 @@
             // 
             btnLogin.Anchor = AnchorStyles.Top;
             btnLogin.BackColor = Color.FromArgb(0, 84, 92);
+            btnLogin.Cursor = Cursors.Hand;
             btnLogin.FlatAppearance.BorderColor = Color.DarkSlateGray;
             btnLogin.FlatAppearance.BorderSize = 30;
             btnLogin.FlatStyle = FlatStyle.Popup;
             btnLogin.Font = new Font("Verdana", 12F, FontStyle.Regular, GraphicsUnit.Point);
             btnLogin.ForeColor = Color.White;
-            btnLogin.Location = new Point(283, 823);
+            btnLogin.Location = new Point(283, 814);
             btnLogin.Margin = new Padding(0);
             btnLogin.Name = "btnLogin";
             btnLogin.Size = new Size(197, 62);
@@ -188,9 +189,9 @@
             // 
             pictureBox2.Anchor = AnchorStyles.Top;
             pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
-            pictureBox2.Location = new Point(230, 45);
+            pictureBox2.Location = new Point(235, 40);
             pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(266, 221);
+            pictureBox2.Size = new Size(266, 204);
             pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox2.TabIndex = 0;
             pictureBox2.TabStop = false;
@@ -209,9 +210,9 @@
             // pictureBox5
             // 
             pictureBox5.Image = (Image)resources.GetObject("pictureBox5.Image");
-            pictureBox5.Location = new Point(153, 74);
+            pictureBox5.Location = new Point(137, 74);
             pictureBox5.Name = "pictureBox5";
-            pictureBox5.Size = new Size(401, 11);
+            pictureBox5.Size = new Size(433, 11);
             pictureBox5.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox5.TabIndex = 2;
             pictureBox5.TabStop = false;
@@ -220,7 +221,7 @@
             // 
             pictureBox3.Anchor = AnchorStyles.Top;
             pictureBox3.Image = (Image)resources.GetObject("pictureBox3.Image");
-            pictureBox3.Location = new Point(509, 36);
+            pictureBox3.Location = new Point(525, 36);
             pictureBox3.Name = "pictureBox3";
             pictureBox3.Size = new Size(45, 34);
             pictureBox3.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -233,13 +234,12 @@
             txtEmail.BackColor = SystemColors.Control;
             txtEmail.BorderStyle = BorderStyle.None;
             txtEmail.Font = new Font("Verdana", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            txtEmail.Location = new Point(153, 36);
+            txtEmail.Location = new Point(137, 36);
             txtEmail.Multiline = true;
             txtEmail.Name = "txtEmail";
-            txtEmail.Size = new Size(401, 44);
+            txtEmail.PlaceholderText = "Ingrese su correo";
+            txtEmail.Size = new Size(433, 44);
             txtEmail.TabIndex = 0;
-            txtEmail.Text = "Ingrese su correo";
-            txtEmail.TextAlign = HorizontalAlignment.Center;
             // 
             // panel7
             // 
@@ -252,11 +252,21 @@
             panel7.Size = new Size(731, 104);
             panel7.TabIndex = 2;
             // 
+            // pictureBox6
+            // 
+            pictureBox6.Image = (Image)resources.GetObject("pictureBox6.Image");
+            pictureBox6.Location = new Point(137, 79);
+            pictureBox6.Name = "pictureBox6";
+            pictureBox6.Size = new Size(433, 11);
+            pictureBox6.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox6.TabIndex = 3;
+            pictureBox6.TabStop = false;
+            // 
             // pictureBox4
             // 
             pictureBox4.Anchor = AnchorStyles.Top;
             pictureBox4.Image = (Image)resources.GetObject("pictureBox4.Image");
-            pictureBox4.Location = new Point(509, 34);
+            pictureBox4.Location = new Point(525, 34);
             pictureBox4.Name = "pictureBox4";
             pictureBox4.Size = new Size(45, 44);
             pictureBox4.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -269,15 +279,15 @@
             txtPassword.BackColor = SystemColors.Control;
             txtPassword.BorderStyle = BorderStyle.None;
             txtPassword.Font = new Font("Verdana", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            txtPassword.Location = new Point(153, 34);
+            txtPassword.ImeMode = ImeMode.NoControl;
+            txtPassword.Location = new Point(137, 36);
             txtPassword.Multiline = true;
             txtPassword.Name = "txtPassword";
-            txtPassword.PasswordChar = 'x';
-            txtPassword.Size = new Size(401, 44);
+            txtPassword.PasswordChar = '*';
+            txtPassword.PlaceholderText = "Ingrese su contraseña";
+            txtPassword.Size = new Size(433, 44);
             txtPassword.TabIndex = 1;
             txtPassword.Tag = "Ingrese su contraseña";
-            txtPassword.Text = "xxxxxxxx";
-            txtPassword.TextAlign = HorizontalAlignment.Center;
             // 
             // panel8
             // 
@@ -291,6 +301,7 @@
             // label2
             // 
             label2.Anchor = AnchorStyles.Top;
+            label2.Cursor = Cursors.Hand;
             label2.Font = new Font("Verdana", 11F, FontStyle.Underline, GraphicsUnit.Point);
             label2.Location = new Point(145, 15);
             label2.Name = "label2";
@@ -311,6 +322,7 @@
             // label3
             // 
             label3.Anchor = AnchorStyles.Top;
+            label3.Cursor = Cursors.Hand;
             label3.Font = new Font("Verdana", 11F, FontStyle.Regular, GraphicsUnit.Point);
             label3.Location = new Point(206, 3);
             label3.Name = "label3";
@@ -390,16 +402,6 @@
             label1.Text = "Inicio De Sesión";
             label1.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // pictureBox6
-            // 
-            pictureBox6.Image = (Image)resources.GetObject("pictureBox6.Image");
-            pictureBox6.Location = new Point(153, 79);
-            pictureBox6.Name = "pictureBox6";
-            pictureBox6.Size = new Size(401, 11);
-            pictureBox6.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox6.TabIndex = 3;
-            pictureBox6.TabStop = false;
-            // 
             // Login
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
@@ -425,12 +427,12 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
             panel7.ResumeLayout(false);
             panel7.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox6).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
             panel8.ResumeLayout(false);
             panel9.ResumeLayout(false);
             tableLayoutPanel2.ResumeLayout(false);
             panel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)pictureBox6).EndInit();
             ResumeLayout(false);
         }
 

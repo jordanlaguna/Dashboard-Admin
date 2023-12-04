@@ -40,24 +40,43 @@
             pictureBox3 = new PictureBox();
             label1 = new Label();
             panel1 = new Panel();
+            pictureBox13 = new PictureBox();
+            pictureBox15 = new PictureBox();
             tableLayoutPanel2 = new TableLayoutPanel();
-            panel9 = new Panel();
-            pictureBox6 = new PictureBox();
-            label13 = new Label();
-            label12 = new Label();
-            panel8 = new Panel();
-            pictureBox5 = new PictureBox();
-            label11 = new Label();
-            label10 = new Label();
-            panel7 = new Panel();
-            pictureBox2 = new PictureBox();
-            label5 = new Label();
-            label4 = new Label();
             panel4 = new Panel();
-            pictureBox1 = new PictureBox();
-            label3 = new Label();
             label2 = new Label();
+            label3 = new Label();
+            pictureBox1 = new PictureBox();
+            panel7 = new Panel();
+            label4 = new Label();
+            label5 = new Label();
+            pictureBox2 = new PictureBox();
+            panel8 = new Panel();
+            label10 = new Label();
+            label11 = new Label();
+            pictureBox5 = new PictureBox();
+            panel9 = new Panel();
+            label12 = new Label();
+            label13 = new Label();
+            pictureBox6 = new PictureBox();
             panel2 = new Panel();
+            tableLayoutPanel4 = new TableLayoutPanel();
+            panel14 = new Panel();
+            label23 = new Label();
+            label24 = new Label();
+            pictureBox11 = new PictureBox();
+            panel13 = new Panel();
+            label21 = new Label();
+            label22 = new Label();
+            pictureBox10 = new PictureBox();
+            panel10 = new Panel();
+            label15 = new Label();
+            label16 = new Label();
+            pictureBox7 = new PictureBox();
+            panel3 = new Panel();
+            pictureBox14 = new PictureBox();
+            pictureBox12 = new PictureBox();
+            label14 = new Label();
             tableLayoutPanel3 = new TableLayoutPanel();
             panel12 = new Panel();
             label19 = new Label();
@@ -67,50 +86,39 @@
             label18 = new Label();
             label17 = new Label();
             pictureBox8 = new PictureBox();
-            panel3 = new Panel();
-            label14 = new Label();
-            tableLayoutPanel4 = new TableLayoutPanel();
-            panel10 = new Panel();
-            label15 = new Label();
-            label16 = new Label();
-            pictureBox7 = new PictureBox();
-            panel13 = new Panel();
-            label21 = new Label();
-            label22 = new Label();
-            pictureBox10 = new PictureBox();
-            panel14 = new Panel();
-            label23 = new Label();
-            label24 = new Label();
-            pictureBox11 = new PictureBox();
             tableLayoutPanel1.SuspendLayout();
             panel6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
             panel5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox13).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox15).BeginInit();
             tableLayoutPanel2.SuspendLayout();
-            panel9.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox6).BeginInit();
-            panel8.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
-            panel7.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            panel7.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
+            panel8.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
+            panel9.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox6).BeginInit();
             panel2.SuspendLayout();
+            tableLayoutPanel4.SuspendLayout();
+            panel14.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox11).BeginInit();
+            panel13.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox10).BeginInit();
+            panel10.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox7).BeginInit();
+            panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox14).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox12).BeginInit();
             tableLayoutPanel3.SuspendLayout();
             panel12.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox9).BeginInit();
             panel11.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox8).BeginInit();
-            panel3.SuspendLayout();
-            tableLayoutPanel4.SuspendLayout();
-            panel10.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox7).BeginInit();
-            panel13.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox10).BeginInit();
-            panel14.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox11).BeginInit();
             SuspendLayout();
             // 
             // tableLayoutPanel1
@@ -225,7 +233,7 @@
             label1.Anchor = AnchorStyles.Top;
             label1.Font = new Font("Verdana", 15F, FontStyle.Regular, GraphicsUnit.Point);
             label1.ForeColor = Color.Black;
-            label1.Location = new Point(0, 39);
+            label1.Location = new Point(0, 58);
             label1.Name = "label1";
             label1.Size = new Size(1216, 36);
             label1.TabIndex = 0;
@@ -235,12 +243,36 @@
             // panel1
             // 
             panel1.BackColor = Color.White;
+            panel1.Controls.Add(pictureBox13);
+            panel1.Controls.Add(pictureBox15);
             panel1.Controls.Add(label1);
             panel1.Dock = DockStyle.Top;
             panel1.Location = new Point(0, 0);
             panel1.Name = "panel1";
-            panel1.Size = new Size(1216, 108);
+            panel1.Size = new Size(1216, 131);
             panel1.TabIndex = 0;
+            // 
+            // pictureBox13
+            // 
+            pictureBox13.Anchor = AnchorStyles.Top;
+            pictureBox13.Image = (Image)resources.GetObject("pictureBox13.Image");
+            pictureBox13.Location = new Point(713, 34);
+            pictureBox13.Name = "pictureBox13";
+            pictureBox13.Size = new Size(503, 82);
+            pictureBox13.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox13.TabIndex = 6;
+            pictureBox13.TabStop = false;
+            // 
+            // pictureBox15
+            // 
+            pictureBox15.Anchor = AnchorStyles.Top;
+            pictureBox15.Image = (Image)resources.GetObject("pictureBox15.Image");
+            pictureBox15.Location = new Point(4, 34);
+            pictureBox15.Name = "pictureBox15";
+            pictureBox15.Size = new Size(489, 82);
+            pictureBox15.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox15.TabIndex = 5;
+            pictureBox15.TabStop = false;
             // 
             // tableLayoutPanel2
             // 
@@ -262,97 +294,51 @@
             tableLayoutPanel2.Size = new Size(1216, 233);
             tableLayoutPanel2.TabIndex = 2;
             // 
-            // panel9
+            // panel4
             // 
-            panel9.Anchor = AnchorStyles.Top;
-            panel9.BackColor = Color.FromArgb(0, 84, 92);
-            panel9.Controls.Add(label12);
-            panel9.Controls.Add(label13);
-            panel9.Controls.Add(pictureBox6);
-            panel9.Location = new Point(13, 13);
-            panel9.Name = "panel9";
-            panel9.Padding = new Padding(0, 0, 10, 10);
-            panel9.Size = new Size(293, 207);
-            panel9.TabIndex = 0;
+            panel4.Anchor = AnchorStyles.Top;
+            panel4.BackColor = Color.FromArgb(0, 84, 92);
+            panel4.Controls.Add(label2);
+            panel4.Controls.Add(label3);
+            panel4.Controls.Add(pictureBox1);
+            panel4.Location = new Point(910, 13);
+            panel4.Name = "panel4";
+            panel4.Padding = new Padding(0, 0, 0, 10);
+            panel4.Size = new Size(293, 207);
+            panel4.TabIndex = 3;
             // 
-            // pictureBox6
+            // label2
             // 
-            pictureBox6.Anchor = AnchorStyles.Top;
-            pictureBox6.Image = Properties.Resources.Users;
-            pictureBox6.Location = new Point(102, 3);
-            pictureBox6.Name = "pictureBox6";
-            pictureBox6.Size = new Size(95, 95);
-            pictureBox6.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox6.TabIndex = 0;
-            pictureBox6.TabStop = false;
+            label2.Anchor = AnchorStyles.Top;
+            label2.Font = new Font("Verdana", 14F, FontStyle.Regular, GraphicsUnit.Point);
+            label2.Location = new Point(3, 115);
+            label2.Name = "label2";
+            label2.Size = new Size(290, 32);
+            label2.TabIndex = 2;
+            label2.Text = "50";
+            label2.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label13
+            // label3
             // 
-            label13.Anchor = AnchorStyles.Top;
-            label13.Font = new Font("Verdana", 14F, FontStyle.Regular, GraphicsUnit.Point);
-            label13.Location = new Point(3, 147);
-            label13.Name = "label13";
-            label13.Size = new Size(293, 38);
-            label13.TabIndex = 1;
-            label13.Text = "Usuarios";
-            label13.TextAlign = ContentAlignment.MiddleCenter;
+            label3.Anchor = AnchorStyles.Top;
+            label3.Font = new Font("Verdana", 14F, FontStyle.Regular, GraphicsUnit.Point);
+            label3.Location = new Point(3, 147);
+            label3.Name = "label3";
+            label3.Size = new Size(290, 38);
+            label3.TabIndex = 1;
+            label3.Text = "Tablets";
+            label3.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label12
+            // pictureBox1
             // 
-            label12.Anchor = AnchorStyles.Top;
-            label12.Font = new Font("Verdana", 14F, FontStyle.Regular, GraphicsUnit.Point);
-            label12.Location = new Point(3, 115);
-            label12.Name = "label12";
-            label12.Size = new Size(290, 32);
-            label12.TabIndex = 2;
-            label12.Text = "10";
-            label12.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // panel8
-            // 
-            panel8.Anchor = AnchorStyles.Top;
-            panel8.BackColor = Color.FromArgb(0, 84, 92);
-            panel8.Controls.Add(label10);
-            panel8.Controls.Add(label11);
-            panel8.Controls.Add(pictureBox5);
-            panel8.Location = new Point(312, 13);
-            panel8.Name = "panel8";
-            panel8.Padding = new Padding(0, 0, 10, 10);
-            panel8.Size = new Size(293, 207);
-            panel8.TabIndex = 1;
-            // 
-            // pictureBox5
-            // 
-            pictureBox5.Anchor = AnchorStyles.Top;
-            pictureBox5.Image = Properties.Resources.Books;
-            pictureBox5.Location = new Point(102, 3);
-            pictureBox5.Name = "pictureBox5";
-            pictureBox5.Size = new Size(95, 95);
-            pictureBox5.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox5.TabIndex = 0;
-            pictureBox5.TabStop = false;
-            // 
-            // label11
-            // 
-            label11.Anchor = AnchorStyles.Top;
-            label11.Font = new Font("Verdana", 14F, FontStyle.Regular, GraphicsUnit.Point);
-            label11.Location = new Point(3, 147);
-            label11.Name = "label11";
-            label11.Size = new Size(290, 38);
-            label11.TabIndex = 1;
-            label11.Text = "Libros";
-            label11.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // label10
-            // 
-            label10.Anchor = AnchorStyles.Top;
-            label10.Font = new Font("Verdana", 14F, FontStyle.Regular, GraphicsUnit.Point);
-            label10.Location = new Point(3, 115);
-            label10.Name = "label10";
-            label10.Size = new Size(293, 32);
-            label10.TabIndex = 2;
-            label10.Text = "300";
-            label10.TextAlign = ContentAlignment.MiddleCenter;
+            pictureBox1.Anchor = AnchorStyles.Top;
+            pictureBox1.Image = Properties.Resources.Tablet;
+            pictureBox1.Location = new Point(102, 3);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(95, 95);
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox1.TabIndex = 0;
+            pictureBox1.TabStop = false;
             // 
             // panel7
             // 
@@ -367,16 +353,16 @@
             panel7.Size = new Size(292, 207);
             panel7.TabIndex = 2;
             // 
-            // pictureBox2
+            // label4
             // 
-            pictureBox2.Anchor = AnchorStyles.Top;
-            pictureBox2.Image = Properties.Resources.Laptop;
-            pictureBox2.Location = new Point(102, 3);
-            pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(95, 95);
-            pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox2.TabIndex = 0;
-            pictureBox2.TabStop = false;
+            label4.Anchor = AnchorStyles.Top;
+            label4.Font = new Font("Verdana", 14F, FontStyle.Regular, GraphicsUnit.Point);
+            label4.Location = new Point(3, 115);
+            label4.Name = "label4";
+            label4.Size = new Size(292, 32);
+            label4.TabIndex = 2;
+            label4.Text = "50";
+            label4.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label5
             // 
@@ -389,62 +375,108 @@
             label5.Text = "Laptops";
             label5.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label4
+            // pictureBox2
             // 
-            label4.Anchor = AnchorStyles.Top;
-            label4.Font = new Font("Verdana", 14F, FontStyle.Regular, GraphicsUnit.Point);
-            label4.Location = new Point(3, 115);
-            label4.Name = "label4";
-            label4.Size = new Size(292, 32);
-            label4.TabIndex = 2;
-            label4.Text = "50";
-            label4.TextAlign = ContentAlignment.MiddleCenter;
+            pictureBox2.Anchor = AnchorStyles.Top;
+            pictureBox2.Image = Properties.Resources.Laptop;
+            pictureBox2.Location = new Point(102, 3);
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.Size = new Size(95, 95);
+            pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox2.TabIndex = 0;
+            pictureBox2.TabStop = false;
             // 
-            // panel4
+            // panel8
             // 
-            panel4.Anchor = AnchorStyles.Top;
-            panel4.BackColor = Color.FromArgb(0, 84, 92);
-            panel4.Controls.Add(label2);
-            panel4.Controls.Add(label3);
-            panel4.Controls.Add(pictureBox1);
-            panel4.Location = new Point(910, 13);
-            panel4.Name = "panel4";
-            panel4.Padding = new Padding(0, 0, 0, 10);
-            panel4.Size = new Size(293, 207);
-            panel4.TabIndex = 3;
+            panel8.Anchor = AnchorStyles.Top;
+            panel8.BackColor = Color.FromArgb(0, 84, 92);
+            panel8.Controls.Add(label10);
+            panel8.Controls.Add(label11);
+            panel8.Controls.Add(pictureBox5);
+            panel8.Location = new Point(312, 13);
+            panel8.Name = "panel8";
+            panel8.Padding = new Padding(0, 0, 10, 10);
+            panel8.Size = new Size(293, 207);
+            panel8.TabIndex = 1;
             // 
-            // pictureBox1
+            // label10
             // 
-            pictureBox1.Anchor = AnchorStyles.Top;
-            pictureBox1.Image = Properties.Resources.Tablet;
-            pictureBox1.Location = new Point(102, 3);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(95, 95);
-            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox1.TabIndex = 0;
-            pictureBox1.TabStop = false;
+            label10.Anchor = AnchorStyles.Top;
+            label10.Font = new Font("Verdana", 14F, FontStyle.Regular, GraphicsUnit.Point);
+            label10.Location = new Point(3, 115);
+            label10.Name = "label10";
+            label10.Size = new Size(293, 32);
+            label10.TabIndex = 2;
+            label10.Text = "300";
+            label10.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label3
+            // label11
             // 
-            label3.Anchor = AnchorStyles.Top;
-            label3.Font = new Font("Verdana", 14F, FontStyle.Regular, GraphicsUnit.Point);
-            label3.Location = new Point(3, 147);
-            label3.Name = "label3";
-            label3.Size = new Size(290, 38);
-            label3.TabIndex = 1;
-            label3.Text = "Tablets";
-            label3.TextAlign = ContentAlignment.MiddleCenter;
+            label11.Anchor = AnchorStyles.Top;
+            label11.Font = new Font("Verdana", 14F, FontStyle.Regular, GraphicsUnit.Point);
+            label11.Location = new Point(3, 147);
+            label11.Name = "label11";
+            label11.Size = new Size(290, 38);
+            label11.TabIndex = 1;
+            label11.Text = "Libros";
+            label11.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label2
+            // pictureBox5
             // 
-            label2.Anchor = AnchorStyles.Top;
-            label2.Font = new Font("Verdana", 14F, FontStyle.Regular, GraphicsUnit.Point);
-            label2.Location = new Point(3, 115);
-            label2.Name = "label2";
-            label2.Size = new Size(290, 32);
-            label2.TabIndex = 2;
-            label2.Text = "50";
-            label2.TextAlign = ContentAlignment.MiddleCenter;
+            pictureBox5.Anchor = AnchorStyles.Top;
+            pictureBox5.Image = Properties.Resources.Books;
+            pictureBox5.Location = new Point(102, 3);
+            pictureBox5.Name = "pictureBox5";
+            pictureBox5.Size = new Size(95, 95);
+            pictureBox5.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox5.TabIndex = 0;
+            pictureBox5.TabStop = false;
+            // 
+            // panel9
+            // 
+            panel9.Anchor = AnchorStyles.Top;
+            panel9.BackColor = Color.FromArgb(0, 84, 92);
+            panel9.Controls.Add(label12);
+            panel9.Controls.Add(label13);
+            panel9.Controls.Add(pictureBox6);
+            panel9.Location = new Point(13, 13);
+            panel9.Name = "panel9";
+            panel9.Padding = new Padding(0, 0, 10, 10);
+            panel9.Size = new Size(293, 207);
+            panel9.TabIndex = 0;
+            // 
+            // label12
+            // 
+            label12.Anchor = AnchorStyles.Top;
+            label12.Font = new Font("Verdana", 14F, FontStyle.Regular, GraphicsUnit.Point);
+            label12.Location = new Point(3, 115);
+            label12.Name = "label12";
+            label12.Size = new Size(290, 32);
+            label12.TabIndex = 2;
+            label12.Text = "10";
+            label12.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // label13
+            // 
+            label13.Anchor = AnchorStyles.Top;
+            label13.Font = new Font("Verdana", 14F, FontStyle.Regular, GraphicsUnit.Point);
+            label13.Location = new Point(3, 147);
+            label13.Name = "label13";
+            label13.Size = new Size(293, 38);
+            label13.TabIndex = 1;
+            label13.Text = "Usuarios";
+            label13.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // pictureBox6
+            // 
+            pictureBox6.Anchor = AnchorStyles.Top;
+            pictureBox6.Image = Properties.Resources.Users;
+            pictureBox6.Location = new Point(102, 3);
+            pictureBox6.Name = "pictureBox6";
+            pictureBox6.Size = new Size(95, 95);
+            pictureBox6.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox6.TabIndex = 0;
+            pictureBox6.TabStop = false;
             // 
             // panel2
             // 
@@ -453,10 +485,211 @@
             panel2.Controls.Add(panel3);
             panel2.Controls.Add(tableLayoutPanel2);
             panel2.Dock = DockStyle.Fill;
-            panel2.Location = new Point(0, 108);
+            panel2.Location = new Point(0, 131);
             panel2.Name = "panel2";
-            panel2.Size = new Size(1216, 752);
+            panel2.Size = new Size(1216, 729);
             panel2.TabIndex = 2;
+            // 
+            // tableLayoutPanel4
+            // 
+            tableLayoutPanel4.ColumnCount = 3;
+            tableLayoutPanel4.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 33.3333359F));
+            tableLayoutPanel4.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 33.3333359F));
+            tableLayoutPanel4.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 33.3333359F));
+            tableLayoutPanel4.Controls.Add(panel14, 0, 0);
+            tableLayoutPanel4.Controls.Add(panel13, 0, 0);
+            tableLayoutPanel4.Controls.Add(panel10, 0, 0);
+            tableLayoutPanel4.Dock = DockStyle.Top;
+            tableLayoutPanel4.Location = new Point(0, 437);
+            tableLayoutPanel4.Name = "tableLayoutPanel4";
+            tableLayoutPanel4.Padding = new Padding(1);
+            tableLayoutPanel4.RowCount = 1;
+            tableLayoutPanel4.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
+            tableLayoutPanel4.Size = new Size(1216, 203);
+            tableLayoutPanel4.TabIndex = 4;
+            // 
+            // panel14
+            // 
+            panel14.Anchor = AnchorStyles.Top;
+            panel14.BackColor = Color.FromArgb(0, 84, 92);
+            panel14.Controls.Add(label23);
+            panel14.Controls.Add(label24);
+            panel14.Controls.Add(pictureBox11);
+            panel14.Location = new Point(812, 4);
+            panel14.Name = "panel14";
+            panel14.Padding = new Padding(0, 0, 0, 10);
+            panel14.Size = new Size(400, 195);
+            panel14.TabIndex = 4;
+            // 
+            // label23
+            // 
+            label23.Anchor = AnchorStyles.Top;
+            label23.Font = new Font("Verdana", 14F, FontStyle.Regular, GraphicsUnit.Point);
+            label23.Location = new Point(53, 115);
+            label23.Name = "label23";
+            label23.Size = new Size(290, 32);
+            label23.TabIndex = 2;
+            label23.Text = "50";
+            label23.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // label24
+            // 
+            label24.Anchor = AnchorStyles.Top;
+            label24.Font = new Font("Verdana", 14F, FontStyle.Regular, GraphicsUnit.Point);
+            label24.Location = new Point(56, 147);
+            label24.Name = "label24";
+            label24.Size = new Size(290, 38);
+            label24.TabIndex = 1;
+            label24.Text = "Tablets";
+            label24.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // pictureBox11
+            // 
+            pictureBox11.Anchor = AnchorStyles.Top;
+            pictureBox11.Image = Properties.Resources.Tablet;
+            pictureBox11.Location = new Point(152, 3);
+            pictureBox11.Name = "pictureBox11";
+            pictureBox11.Size = new Size(95, 95);
+            pictureBox11.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox11.TabIndex = 0;
+            pictureBox11.TabStop = false;
+            // 
+            // panel13
+            // 
+            panel13.Anchor = AnchorStyles.Top;
+            panel13.BackColor = Color.FromArgb(0, 84, 92);
+            panel13.Controls.Add(label21);
+            panel13.Controls.Add(label22);
+            panel13.Controls.Add(pictureBox10);
+            panel13.Location = new Point(408, 4);
+            panel13.Name = "panel13";
+            panel13.Padding = new Padding(0, 0, 10, 10);
+            panel13.Size = new Size(398, 195);
+            panel13.TabIndex = 3;
+            // 
+            // label21
+            // 
+            label21.Anchor = AnchorStyles.Top;
+            label21.Font = new Font("Verdana", 14F, FontStyle.Regular, GraphicsUnit.Point);
+            label21.Location = new Point(53, 115);
+            label21.Name = "label21";
+            label21.Size = new Size(292, 32);
+            label21.TabIndex = 2;
+            label21.Text = "50";
+            label21.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // label22
+            // 
+            label22.Anchor = AnchorStyles.Top;
+            label22.Font = new Font("Verdana", 14F, FontStyle.Regular, GraphicsUnit.Point);
+            label22.Location = new Point(56, 147);
+            label22.Name = "label22";
+            label22.Size = new Size(292, 38);
+            label22.TabIndex = 1;
+            label22.Text = "Laptops";
+            label22.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // pictureBox10
+            // 
+            pictureBox10.Anchor = AnchorStyles.Top;
+            pictureBox10.Image = Properties.Resources.Laptop;
+            pictureBox10.Location = new Point(152, 3);
+            pictureBox10.Name = "pictureBox10";
+            pictureBox10.Size = new Size(95, 95);
+            pictureBox10.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox10.TabIndex = 0;
+            pictureBox10.TabStop = false;
+            // 
+            // panel10
+            // 
+            panel10.Anchor = AnchorStyles.Top;
+            panel10.BackColor = Color.FromArgb(0, 84, 92);
+            panel10.Controls.Add(label15);
+            panel10.Controls.Add(label16);
+            panel10.Controls.Add(pictureBox7);
+            panel10.Location = new Point(4, 4);
+            panel10.Name = "panel10";
+            panel10.Padding = new Padding(0, 0, 10, 10);
+            panel10.Size = new Size(398, 195);
+            panel10.TabIndex = 2;
+            // 
+            // label15
+            // 
+            label15.Anchor = AnchorStyles.Top;
+            label15.Font = new Font("Verdana", 14F, FontStyle.Regular, GraphicsUnit.Point);
+            label15.Location = new Point(53, 115);
+            label15.Name = "label15";
+            label15.Size = new Size(293, 32);
+            label15.TabIndex = 2;
+            label15.Text = "300";
+            label15.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // label16
+            // 
+            label16.Anchor = AnchorStyles.Top;
+            label16.Font = new Font("Verdana", 14F, FontStyle.Regular, GraphicsUnit.Point);
+            label16.Location = new Point(56, 147);
+            label16.Name = "label16";
+            label16.Size = new Size(290, 38);
+            label16.TabIndex = 1;
+            label16.Text = "Libros";
+            label16.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // pictureBox7
+            // 
+            pictureBox7.Anchor = AnchorStyles.Top;
+            pictureBox7.Image = Properties.Resources.Books;
+            pictureBox7.Location = new Point(152, 3);
+            pictureBox7.Name = "pictureBox7";
+            pictureBox7.Size = new Size(95, 95);
+            pictureBox7.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox7.TabIndex = 0;
+            pictureBox7.TabStop = false;
+            // 
+            // panel3
+            // 
+            panel3.Controls.Add(pictureBox14);
+            panel3.Controls.Add(pictureBox12);
+            panel3.Controls.Add(label14);
+            panel3.Dock = DockStyle.Top;
+            panel3.Location = new Point(0, 233);
+            panel3.Name = "panel3";
+            panel3.Size = new Size(1216, 204);
+            panel3.TabIndex = 3;
+            // 
+            // pictureBox14
+            // 
+            pictureBox14.Anchor = AnchorStyles.Top;
+            pictureBox14.Image = (Image)resources.GetObject("pictureBox14.Image");
+            pictureBox14.Location = new Point(700, 109);
+            pictureBox14.Name = "pictureBox14";
+            pictureBox14.Size = new Size(509, 82);
+            pictureBox14.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox14.TabIndex = 4;
+            pictureBox14.TabStop = false;
+            // 
+            // pictureBox12
+            // 
+            pictureBox12.Anchor = AnchorStyles.Top;
+            pictureBox12.Image = (Image)resources.GetObject("pictureBox12.Image");
+            pictureBox12.Location = new Point(0, 106);
+            pictureBox12.Name = "pictureBox12";
+            pictureBox12.Size = new Size(509, 82);
+            pictureBox12.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox12.TabIndex = 2;
+            pictureBox12.TabStop = false;
+            // 
+            // label14
+            // 
+            label14.Anchor = AnchorStyles.Top;
+            label14.Font = new Font("Verdana", 15F, FontStyle.Regular, GraphicsUnit.Point);
+            label14.ForeColor = Color.Black;
+            label14.Location = new Point(0, 128);
+            label14.Name = "label14";
+            label14.Size = new Size(1216, 36);
+            label14.TabIndex = 1;
+            label14.Text = "Prestamos.";
+            label14.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // tableLayoutPanel3
             // 
@@ -564,183 +797,6 @@
             pictureBox8.TabIndex = 0;
             pictureBox8.TabStop = false;
             // 
-            // panel3
-            // 
-            panel3.Controls.Add(label14);
-            panel3.Dock = DockStyle.Top;
-            panel3.Location = new Point(0, 233);
-            panel3.Name = "panel3";
-            panel3.Size = new Size(1216, 118);
-            panel3.TabIndex = 3;
-            // 
-            // label14
-            // 
-            label14.Anchor = AnchorStyles.Top;
-            label14.Font = new Font("Verdana", 15F, FontStyle.Regular, GraphicsUnit.Point);
-            label14.ForeColor = Color.Black;
-            label14.Location = new Point(0, 56);
-            label14.Name = "label14";
-            label14.Size = new Size(1216, 36);
-            label14.TabIndex = 1;
-            label14.Text = "Prestamos.";
-            label14.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // tableLayoutPanel4
-            // 
-            tableLayoutPanel4.ColumnCount = 3;
-            tableLayoutPanel4.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 33.3333359F));
-            tableLayoutPanel4.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 33.3333359F));
-            tableLayoutPanel4.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 33.3333359F));
-            tableLayoutPanel4.Controls.Add(panel14, 0, 0);
-            tableLayoutPanel4.Controls.Add(panel13, 0, 0);
-            tableLayoutPanel4.Controls.Add(panel10, 0, 0);
-            tableLayoutPanel4.Dock = DockStyle.Top;
-            tableLayoutPanel4.Location = new Point(0, 351);
-            tableLayoutPanel4.Name = "tableLayoutPanel4";
-            tableLayoutPanel4.Padding = new Padding(1);
-            tableLayoutPanel4.RowCount = 1;
-            tableLayoutPanel4.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
-            tableLayoutPanel4.Size = new Size(1216, 203);
-            tableLayoutPanel4.TabIndex = 4;
-            // 
-            // panel10
-            // 
-            panel10.Anchor = AnchorStyles.Top;
-            panel10.BackColor = Color.FromArgb(0, 84, 92);
-            panel10.Controls.Add(label15);
-            panel10.Controls.Add(label16);
-            panel10.Controls.Add(pictureBox7);
-            panel10.Location = new Point(4, 4);
-            panel10.Name = "panel10";
-            panel10.Padding = new Padding(0, 0, 10, 10);
-            panel10.Size = new Size(398, 195);
-            panel10.TabIndex = 2;
-            // 
-            // label15
-            // 
-            label15.Anchor = AnchorStyles.Top;
-            label15.Font = new Font("Verdana", 14F, FontStyle.Regular, GraphicsUnit.Point);
-            label15.Location = new Point(53, 115);
-            label15.Name = "label15";
-            label15.Size = new Size(293, 32);
-            label15.TabIndex = 2;
-            label15.Text = "300";
-            label15.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // label16
-            // 
-            label16.Anchor = AnchorStyles.Top;
-            label16.Font = new Font("Verdana", 14F, FontStyle.Regular, GraphicsUnit.Point);
-            label16.Location = new Point(56, 147);
-            label16.Name = "label16";
-            label16.Size = new Size(290, 38);
-            label16.TabIndex = 1;
-            label16.Text = "Libros";
-            label16.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // pictureBox7
-            // 
-            pictureBox7.Anchor = AnchorStyles.Top;
-            pictureBox7.Image = Properties.Resources.Books;
-            pictureBox7.Location = new Point(152, 3);
-            pictureBox7.Name = "pictureBox7";
-            pictureBox7.Size = new Size(95, 95);
-            pictureBox7.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox7.TabIndex = 0;
-            pictureBox7.TabStop = false;
-            // 
-            // panel13
-            // 
-            panel13.Anchor = AnchorStyles.Top;
-            panel13.BackColor = Color.FromArgb(0, 84, 92);
-            panel13.Controls.Add(label21);
-            panel13.Controls.Add(label22);
-            panel13.Controls.Add(pictureBox10);
-            panel13.Location = new Point(408, 4);
-            panel13.Name = "panel13";
-            panel13.Padding = new Padding(0, 0, 10, 10);
-            panel13.Size = new Size(398, 195);
-            panel13.TabIndex = 3;
-            // 
-            // label21
-            // 
-            label21.Anchor = AnchorStyles.Top;
-            label21.Font = new Font("Verdana", 14F, FontStyle.Regular, GraphicsUnit.Point);
-            label21.Location = new Point(53, 115);
-            label21.Name = "label21";
-            label21.Size = new Size(292, 32);
-            label21.TabIndex = 2;
-            label21.Text = "50";
-            label21.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // label22
-            // 
-            label22.Anchor = AnchorStyles.Top;
-            label22.Font = new Font("Verdana", 14F, FontStyle.Regular, GraphicsUnit.Point);
-            label22.Location = new Point(56, 147);
-            label22.Name = "label22";
-            label22.Size = new Size(292, 38);
-            label22.TabIndex = 1;
-            label22.Text = "Laptops";
-            label22.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // pictureBox10
-            // 
-            pictureBox10.Anchor = AnchorStyles.Top;
-            pictureBox10.Image = Properties.Resources.Laptop;
-            pictureBox10.Location = new Point(152, 3);
-            pictureBox10.Name = "pictureBox10";
-            pictureBox10.Size = new Size(95, 95);
-            pictureBox10.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox10.TabIndex = 0;
-            pictureBox10.TabStop = false;
-            // 
-            // panel14
-            // 
-            panel14.Anchor = AnchorStyles.Top;
-            panel14.BackColor = Color.FromArgb(0, 84, 92);
-            panel14.Controls.Add(label23);
-            panel14.Controls.Add(label24);
-            panel14.Controls.Add(pictureBox11);
-            panel14.Location = new Point(812, 4);
-            panel14.Name = "panel14";
-            panel14.Padding = new Padding(0, 0, 0, 10);
-            panel14.Size = new Size(400, 195);
-            panel14.TabIndex = 4;
-            // 
-            // label23
-            // 
-            label23.Anchor = AnchorStyles.Top;
-            label23.Font = new Font("Verdana", 14F, FontStyle.Regular, GraphicsUnit.Point);
-            label23.Location = new Point(53, 115);
-            label23.Name = "label23";
-            label23.Size = new Size(290, 32);
-            label23.TabIndex = 2;
-            label23.Text = "50";
-            label23.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // label24
-            // 
-            label24.Anchor = AnchorStyles.Top;
-            label24.Font = new Font("Verdana", 14F, FontStyle.Regular, GraphicsUnit.Point);
-            label24.Location = new Point(56, 147);
-            label24.Name = "label24";
-            label24.Size = new Size(290, 38);
-            label24.TabIndex = 1;
-            label24.Text = "Tablets";
-            label24.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // pictureBox11
-            // 
-            pictureBox11.Anchor = AnchorStyles.Top;
-            pictureBox11.Image = Properties.Resources.Tablet;
-            pictureBox11.Location = new Point(152, 3);
-            pictureBox11.Name = "pictureBox11";
-            pictureBox11.Size = new Size(95, 95);
-            pictureBox11.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox11.TabIndex = 0;
-            pictureBox11.TabStop = false;
-            // 
             // Home
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
@@ -758,29 +814,33 @@
             panel5.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
             panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)pictureBox13).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox15).EndInit();
             tableLayoutPanel2.ResumeLayout(false);
-            panel9.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)pictureBox6).EndInit();
-            panel8.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)pictureBox5).EndInit();
-            panel7.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             panel4.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            panel7.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
+            panel8.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)pictureBox5).EndInit();
+            panel9.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)pictureBox6).EndInit();
             panel2.ResumeLayout(false);
+            tableLayoutPanel4.ResumeLayout(false);
+            panel14.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)pictureBox11).EndInit();
+            panel13.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)pictureBox10).EndInit();
+            panel10.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)pictureBox7).EndInit();
+            panel3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)pictureBox14).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox12).EndInit();
             tableLayoutPanel3.ResumeLayout(false);
             panel12.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pictureBox9).EndInit();
             panel11.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pictureBox8).EndInit();
-            panel3.ResumeLayout(false);
-            tableLayoutPanel4.ResumeLayout(false);
-            panel10.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)pictureBox7).EndInit();
-            panel13.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)pictureBox10).EndInit();
-            panel14.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)pictureBox11).EndInit();
             ResumeLayout(false);
         }
 
@@ -838,5 +898,9 @@
         private PictureBox pictureBox7;
         private Panel panel3;
         private Label label14;
+        private PictureBox pictureBox12;
+        private PictureBox pictureBox14;
+        private PictureBox pictureBox13;
+        private PictureBox pictureBox15;
     }
 }

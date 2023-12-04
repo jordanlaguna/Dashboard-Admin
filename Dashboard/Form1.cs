@@ -53,7 +53,7 @@ namespace Dashboard
             }
             else
             {
-                panelMenu.Width = 262;
+                panelMenu.Width = 285;
                 pictureBox1.Visible = true;
                 btnMenu.Dock = DockStyle.None;
                 foreach (Button menuButton in panelMenu.Controls.OfType<Button>())
@@ -79,6 +79,10 @@ namespace Dashboard
         private void btnHome_Click(object sender, EventArgs e)
         {
             openFormHome(new Home());
+        }
+        public void SetEmail(string email)
+        {
+            txtUser.Text = "Hola!" + email;
         }
     }
 }
