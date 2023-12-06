@@ -84,19 +84,6 @@
           }
         }
       },
-      "LiveCharts/0.9.7": {
-        "type": "package",
-        "compile": {
-          "lib/net45/LiveCharts.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net45/LiveCharts.dll": {
-            "related": ".pdb;.xml"
-          }
-        }
-      },
       "Microsoft.NETCore.Platforms/3.1.0": {
         "type": "package",
         "compile": {
@@ -559,15 +546,6 @@
           }
         }
       },
-      "ToastNotifications/2.5.1": {
-        "type": "package",
-        "compile": {
-          "lib/net40/ToastNotifications.dll": {}
-        },
-        "runtime": {
-          "lib/net40/ToastNotifications.dll": {}
-        }
-      },
       "ZstdSharp.Port/0.7.1": {
         "type": "package",
         "compile": {
@@ -699,27 +677,6 @@
         "lib/netstandard2.0/K4os.Hash.xxHash.xml",
         "lib/netstandard2.1/K4os.Hash.xxHash.dll",
         "lib/netstandard2.1/K4os.Hash.xxHash.xml"
-      ]
-    },
-    "LiveCharts/0.9.7": {
-      "sha512": "p4xyBrUaNNfkWZSNsIle0r51cyVyFg0Yi0uBRZM5GQtdFiA/7guZHlffFyNUILIdux10Ch2hUaJpcZENVU9aaQ==",
-      "type": "package",
-      "path": "livecharts/0.9.7",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net40/LiveCharts.dll",
-        "lib/net40/LiveCharts.pdb",
-        "lib/net40/LiveCharts.xml",
-        "lib/net45/LiveCharts.dll",
-        "lib/net45/LiveCharts.pdb",
-        "lib/net45/LiveCharts.xml",
-        "lib/portable-net45+win8+wp8/LiveCharts.XML",
-        "lib/portable-net45+win8+wp8/LiveCharts.dll",
-        "lib/portable-net45+win8+wp8/LiveCharts.pdb",
-        "livecharts.0.9.7.nupkg.sha512",
-        "livecharts.nuspec",
-        "readme.txt"
       ]
     },
     "Microsoft.NETCore.Platforms/3.1.0": {
@@ -1837,19 +1794,6 @@
         "version.txt"
       ]
     },
-    "ToastNotifications/2.5.1": {
-      "sha512": "0ZBWG0FCPafwbIzNhjWgC0GEOyk51GF3rYWrh5QJ61ZxDEoLgdDsEUt8HMxYN7lRLVt/mWhtgdbe4OmhXfwtkA==",
-      "type": "package",
-      "path": "toastnotifications/2.5.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net40/ToastNotifications.dll",
-        "readme.txt",
-        "toastnotifications.2.5.1.nupkg.sha512",
-        "toastnotifications.nuspec"
-      ]
-    },
     "ZstdSharp.Port/0.7.1": {
       "sha512": "Idgg+mJEyAujqDPzA3APy9dNoyw0YQcNA65GgYjktDRtJ+nvx/hv+J+m6Eax3JJMGEYGy04oc5YNP6ZvQ3Y1vQ==",
       "type": "package",
@@ -1872,9 +1816,7 @@
   "projectFileDependencyGroups": {
     "net6.0-windows7.0": [
       "FontAwesome.Sharp >= 6.3.0",
-      "LiveCharts >= 0.9.7",
-      "MySql.Data >= 8.2.0",
-      "ToastNotifications >= 2.5.1"
+      "MySql.Data >= 8.2.0"
     ]
   },
   "packageFolders": {
@@ -1920,17 +1862,9 @@
             "target": "Package",
             "version": "[6.3.0, )"
           },
-          "LiveCharts": {
-            "target": "Package",
-            "version": "[0.9.7, )"
-          },
           "MySql.Data": {
             "target": "Package",
             "version": "[8.2.0, )"
-          },
-          "ToastNotifications": {
-            "target": "Package",
-            "version": "[2.5.1, )"
           }
         },
         "imports": [
@@ -1955,27 +1889,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "El paquete \"LiveCharts 0.9.7\" se restauró con \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1\" en lugar de la plataforma de destino del proyecto \"net6.0-windows7.0\". Puede que el paquete no sea totalmente compatible con el proyecto.",
-      "libraryId": "LiveCharts",
-      "targetGraphs": [
-        "net6.0-windows7.0"
-      ]
-    },
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "El paquete \"ToastNotifications 2.5.1\" se restauró con \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1\" en lugar de la plataforma de destino del proyecto \"net6.0-windows7.0\". Puede que el paquete no sea totalmente compatible con el proyecto.",
-      "libraryId": "ToastNotifications",
-      "targetGraphs": [
-        "net6.0-windows7.0"
-      ]
-    }
-  ]
+  }
 }

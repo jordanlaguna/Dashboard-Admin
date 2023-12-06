@@ -44,17 +44,9 @@
               "target": "Package",
               "version": "[6.3.0, )"
             },
-            "LiveCharts": {
-              "target": "Package",
-              "version": "[0.9.7, )"
-            },
             "MySql.Data": {
               "target": "Package",
               "version": "[8.2.0, )"
-            },
-            "ToastNotifications": {
-              "target": "Package",
-              "version": "[2.5.1, )"
             }
           },
           "imports": [

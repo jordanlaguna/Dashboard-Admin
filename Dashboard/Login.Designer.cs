@@ -145,10 +145,10 @@
             btnLogin.FlatStyle = FlatStyle.Popup;
             btnLogin.Font = new Font("Verdana", 12F, FontStyle.Regular, GraphicsUnit.Point);
             btnLogin.ForeColor = Color.White;
-            btnLogin.Location = new Point(283, 814);
+            btnLogin.Location = new Point(271, 816);
             btnLogin.Margin = new Padding(0);
             btnLogin.Name = "btnLogin";
-            btnLogin.Size = new Size(197, 62);
+            btnLogin.Size = new Size(221, 62);
             btnLogin.TabIndex = 2;
             btnLogin.Text = "Acceder";
             btnLogin.UseVisualStyleBackColor = false;
@@ -170,8 +170,8 @@
             tableLayoutPanel3.RowCount = 5;
             tableLayoutPanel3.RowStyles.Add(new RowStyle(SizeType.Percent, 74.34555F));
             tableLayoutPanel3.RowStyles.Add(new RowStyle(SizeType.Percent, 25.65445F));
-            tableLayoutPanel3.RowStyles.Add(new RowStyle(SizeType.Absolute, 110F));
-            tableLayoutPanel3.RowStyles.Add(new RowStyle(SizeType.Absolute, 74F));
+            tableLayoutPanel3.RowStyles.Add(new RowStyle(SizeType.Absolute, 101F));
+            tableLayoutPanel3.RowStyles.Add(new RowStyle(SizeType.Absolute, 73F));
             tableLayoutPanel3.RowStyles.Add(new RowStyle(SizeType.Absolute, 56F));
             tableLayoutPanel3.Size = new Size(737, 623);
             tableLayoutPanel3.TabIndex = 1;
@@ -182,7 +182,7 @@
             panel4.Dock = DockStyle.Fill;
             panel4.Location = new Point(3, 3);
             panel4.Name = "panel4";
-            panel4.Size = new Size(731, 278);
+            panel4.Size = new Size(731, 286);
             panel4.TabIndex = 0;
             // 
             // pictureBox2
@@ -202,7 +202,7 @@
             panel6.Controls.Add(pictureBox5);
             panel6.Controls.Add(pictureBox3);
             panel6.Controls.Add(txtEmail);
-            panel6.Location = new Point(3, 287);
+            panel6.Location = new Point(3, 295);
             panel6.Name = "panel6";
             panel6.Size = new Size(731, 92);
             panel6.TabIndex = 1;
@@ -247,9 +247,9 @@
             panel7.Controls.Add(pictureBox6);
             panel7.Controls.Add(pictureBox4);
             panel7.Controls.Add(txtPassword);
-            panel7.Location = new Point(3, 385);
+            panel7.Location = new Point(3, 395);
             panel7.Name = "panel7";
-            panel7.Size = new Size(731, 104);
+            panel7.Size = new Size(731, 92);
             panel7.TabIndex = 2;
             // 
             // pictureBox6
@@ -293,16 +293,16 @@
             // 
             panel8.Controls.Add(label2);
             panel8.Dock = DockStyle.Fill;
-            panel8.Location = new Point(3, 495);
+            panel8.Location = new Point(3, 496);
             panel8.Name = "panel8";
-            panel8.Size = new Size(731, 68);
+            panel8.Size = new Size(731, 67);
             panel8.TabIndex = 3;
             // 
             // label2
             // 
             label2.Anchor = AnchorStyles.Top;
             label2.Cursor = Cursors.Hand;
-            label2.Font = new Font("Verdana", 11F, FontStyle.Underline, GraphicsUnit.Point);
+            label2.Font = new Font("Verdana", 13F, FontStyle.Underline, GraphicsUnit.Point);
             label2.Location = new Point(145, 15);
             label2.Name = "label2";
             label2.Size = new Size(586, 38);
@@ -323,7 +323,7 @@
             // 
             label3.Anchor = AnchorStyles.Top;
             label3.Cursor = Cursors.Hand;
-            label3.Font = new Font("Verdana", 11F, FontStyle.Regular, GraphicsUnit.Point);
+            label3.Font = new Font("Verdana", 13F, FontStyle.Regular, GraphicsUnit.Point);
             label3.Location = new Point(206, 3);
             label3.Name = "label3";
             label3.Size = new Size(528, 38);

@@ -42,7 +42,7 @@ namespace Dashboard
             email = txtEmail.Text;
             password = txtPassword.Text;
 
-            string sql = "select email, password from users where email = '" + email + "' AND password = '" + password + "'";
+            string sql = "select email, password from user where email = '" + email + "' AND password = '" + password + "'";
             MySqlCommand cmd = new MySqlCommand(sql, conn);
             MySqlDataReader read = cmd.ExecuteReader();
             if (read.Read())

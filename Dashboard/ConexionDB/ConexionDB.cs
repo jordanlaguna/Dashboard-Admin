@@ -11,7 +11,7 @@ namespace Dashboard.ConexionDB
     {
         public static MySqlConnection GetConnection()
         {
-            string mysql = "datasource=localhost;port=3306;username=root;password=;database=systemlib";
+            string mysql = "datasource=localhost;port=3306;username=root;password=;database=libsystem";
             MySqlConnection conn = new MySqlConnection(mysql);
             try
             {

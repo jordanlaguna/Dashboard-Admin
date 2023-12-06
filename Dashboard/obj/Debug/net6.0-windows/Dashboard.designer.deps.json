@@ -59,14 +59,6 @@
           }
         }
       },
-      "LiveCharts/0.9.7": {
-        "runtime": {
-          "lib/net45/LiveCharts.dll": {
-            "assemblyVersion": "0.9.7.0",
-            "fileVersion": "0.9.7.0"
-          }
-        }
-      },
       "Microsoft.NETCore.Platforms/3.1.0": {},
       "Microsoft.NETCore.Targets/1.1.0": {},
       "Microsoft.Win32.SystemEvents/4.7.0": {
@@ -401,14 +393,6 @@
           }
         }
       },
-      "ToastNotifications/2.5.1": {
-        "runtime": {
-          "lib/net40/ToastNotifications.dll": {
-            "assemblyVersion": "2.5.1.0",
-            "fileVersion": "2.5.1.0"
-          }
-        }
-      },
       "ZstdSharp.Port/0.7.1": {
         "runtime": {
           "lib/net6.0/ZstdSharp.dll": {
@@ -461,13 +445,6 @@
       "sha512": "sha512-Wp2F7BamQ2Q/7Hk834nV9vRQapgcr8kgv9Jvfm8J3D0IhDqZMMl+a2yxUq5ltJitvXvQfB8W6K4F4fCbw/P6YQ==",
       "path": "k4os.hash.xxhash/1.0.8",
       "hashPath": "k4os.hash.xxhash.1.0.8.nupkg.sha512"
-    },
-    "LiveCharts/0.9.7": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-p4xyBrUaNNfkWZSNsIle0r51cyVyFg0Yi0uBRZM5GQtdFiA/7guZHlffFyNUILIdux10Ch2hUaJpcZENVU9aaQ==",
-      "path": "livecharts/0.9.7",
-      "hashPath": "livecharts.0.9.7.nupkg.sha512"
     },
     "Microsoft.NETCore.Platforms/3.1.0": {
       "type": "package",
@@ -650,13 +627,6 @@
       "sha512": "sha512-CeWTdRNfRaSh0pm2gDTJFwVaXfTq6Xwv/sA887iwPTneW7oMtMlpvDIO+U60+3GWTB7Aom6oQwv5VZVUhQRdPQ==",
       "path": "system.windows.extensions/4.7.0",
       "hashPath": "system.windows.extensions.4.7.0.nupkg.sha512"
-    },
-    "ToastNotifications/2.5.1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-0ZBWG0FCPafwbIzNhjWgC0GEOyk51GF3rYWrh5QJ61ZxDEoLgdDsEUt8HMxYN7lRLVt/mWhtgdbe4OmhXfwtkA==",
-      "path": "toastnotifications/2.5.1",
-      "hashPath": "toastnotifications.2.5.1.nupkg.sha512"
     },
     "ZstdSharp.Port/0.7.1": {
       "type": "package",

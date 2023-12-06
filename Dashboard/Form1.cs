@@ -1,5 +1,7 @@
 using System.Runtime.InteropServices;
-
+using System;
+using System.Drawing;
+using System.Windows.Forms;
 namespace Dashboard
 {
     public partial class Form1 : Form
@@ -19,6 +21,16 @@ namespace Dashboard
         [DllImport("user32.dll", EntryPoint = "SendMessage")]
         private extern static void SendMessage(System.IntPtr hWnd, int wMsg, int wParam, int lParam);
 
+        protected override void WndProc(ref Message m)
+        {
+            const int WM_NCCALCSIZE = 0x0083;
+            if (m.Msg == WM_NCCALCSIZE && m.WParam.ToInt32() == 1)
+            {
+
+                return;
+            }
+            base.WndProc(ref m);
+        }
         private void panelDekstop_Paint(object sender, PaintEventArgs e)
         {
 
@@ -80,9 +92,72 @@ namespace Dashboard
         {
             openFormHome(new Home());
         }
+        private void openFormBook(object FormBook)
+        {
+            if (panelDesktop.Controls.Count > 0)
+                this.panelDesktop.Controls.RemoveAt(0);
+            Form fh = FormBook as Form;
+            fh.TopLevel = false;
+            fh.Dock = DockStyle.Fill;
+            this.panelDesktop.Controls.Add(fh);
+            this.panelDesktop.Tag = fh;
+            fh.Show();
+
+        }
         public void SetEmail(string email)
         {
-            txtUser.Text = "Hola!" + email;
+            txtUser.Text = "Hola! " + email;
+        }
+
+        private void btnOpenBook_Click(object sender, EventArgs e)
+        {
+            openFormBook(new Book());
+        }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void btnClose_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void btnMinimize_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void btnMaximize_Click(object sender, EventArgs e)
+        {
+            if (this.WindowState == FormWindowState.Normal)
+            {
+                this.WindowState = FormWindowState.Maximized;
+            }
+            else
+            {
+                this.WindowState = FormWindowState.Normal;
+            }
+        }
+
+        private void Form1_Resize(object sender, EventArgs e)
+        {
+            AdjustForm();
+        }
+        private void AdjustForm()
+        {
+            switch (this.WindowState)
+            {
+                case FormWindowState.Maximized:
+                    this.Padding = new Padding(0, 8, 8, 0);
+                    break;
+                case FormWindowState.Normal:
+                    if (this.Padding.Top != border)
+                        this.Padding = new Padding(border);
+                    break;
+
+            }
         }
     }
 }

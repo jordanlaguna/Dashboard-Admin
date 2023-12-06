@@ -52,7 +52,7 @@
             label5 = new Label();
             pictureBox2 = new PictureBox();
             panel8 = new Panel();
-            label10 = new Label();
+            lblBooks = new Label();
             label11 = new Label();
             pictureBox5 = new PictureBox();
             panel9 = new Panel();
@@ -267,9 +267,9 @@
             // 
             pictureBox15.Anchor = AnchorStyles.Top;
             pictureBox15.Image = (Image)resources.GetObject("pictureBox15.Image");
-            pictureBox15.Location = new Point(4, 34);
+            pictureBox15.Location = new Point(0, 34);
             pictureBox15.Name = "pictureBox15";
-            pictureBox15.Size = new Size(489, 82);
+            pictureBox15.Size = new Size(493, 82);
             pictureBox15.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox15.TabIndex = 5;
             pictureBox15.TabStop = false;
@@ -390,7 +390,7 @@
             // 
             panel8.Anchor = AnchorStyles.Top;
             panel8.BackColor = Color.FromArgb(0, 84, 92);
-            panel8.Controls.Add(label10);
+            panel8.Controls.Add(lblBooks);
             panel8.Controls.Add(label11);
             panel8.Controls.Add(pictureBox5);
             panel8.Location = new Point(312, 13);
@@ -399,16 +399,16 @@
             panel8.Size = new Size(293, 207);
             panel8.TabIndex = 1;
             // 
-            // label10
+            // lblBooks
             // 
-            label10.Anchor = AnchorStyles.Top;
-            label10.Font = new Font("Verdana", 14F, FontStyle.Regular, GraphicsUnit.Point);
-            label10.Location = new Point(3, 115);
-            label10.Name = "label10";
-            label10.Size = new Size(293, 32);
-            label10.TabIndex = 2;
-            label10.Text = "300";
-            label10.TextAlign = ContentAlignment.MiddleCenter;
+            lblBooks.Anchor = AnchorStyles.Top;
+            lblBooks.Font = new Font("Verdana", 14F, FontStyle.Regular, GraphicsUnit.Point);
+            lblBooks.Location = new Point(3, 115);
+            lblBooks.Name = "lblBooks";
+            lblBooks.Size = new Size(293, 32);
+            lblBooks.TabIndex = 2;
+            lblBooks.Text = "300";
+            lblBooks.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label11
             // 
@@ -866,7 +866,7 @@
         private Label label5;
         private PictureBox pictureBox2;
         private Panel panel8;
-        private Label label10;
+        private Label lblBooks;
         private Label label11;
         private PictureBox pictureBox5;
         private Panel panel9;
