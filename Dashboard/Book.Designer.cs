@@ -157,7 +157,7 @@
             txtAuthor.Name = "txtAuthor";
             txtAuthor.PlaceholderText = "Digite el autor del libro";
             txtAuthor.Size = new Size(353, 33);
-            txtAuthor.TabIndex = 7;
+            txtAuthor.TabIndex = 5;
             // 
             // pictureBox1
             // 
@@ -182,7 +182,7 @@
             txtTitle.Name = "txtTitle";
             txtTitle.PlaceholderText = "Digite el título del libro";
             txtTitle.Size = new Size(353, 33);
-            txtTitle.TabIndex = 5;
+            txtTitle.TabIndex = 4;
             // 
             // pictureBox5
             // 
@@ -312,7 +312,7 @@
             textBox1.Name = "textBox1";
             textBox1.PlaceholderText = "Digite el editorial del libro";
             textBox1.Size = new Size(354, 33);
-            textBox1.TabIndex = 9;
+            textBox1.TabIndex = 6;
             // 
             // tableLayoutPanel2
             // 
@@ -463,7 +463,7 @@
             tableLayoutPanel3.RowCount = 1;
             tableLayoutPanel3.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
             tableLayoutPanel3.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
-            tableLayoutPanel3.Size = new Size(1193, 438);
+            tableLayoutPanel3.Size = new Size(1193, 450);
             tableLayoutPanel3.TabIndex = 3;
             // 
             // panel7
@@ -474,7 +474,7 @@
             panel7.Dock = DockStyle.Fill;
             panel7.Location = new Point(3, 3);
             panel7.Name = "panel7";
-            panel7.Size = new Size(1187, 432);
+            panel7.Size = new Size(1187, 444);
             panel7.TabIndex = 1;
             // 
             // tableBooks
@@ -515,7 +515,7 @@
             tableBooks.RowHeadersWidth = 62;
             tableBooks.RowHeadersWidthSizeMode = DataGridViewRowHeadersWidthSizeMode.DisableResizing;
             tableBooks.RowTemplate.Height = 33;
-            tableBooks.Size = new Size(1170, 331);
+            tableBooks.Size = new Size(1170, 343);
             tableBooks.TabIndex = 2;
             // 
             // ColumnCode

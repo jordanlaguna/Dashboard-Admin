@@ -159,5 +159,21 @@ namespace Dashboard
 
             }
         }
+        private void openFormUser(object FormUser)
+        {
+            if (panelDesktop.Controls.Count > 0)
+                this.panelDesktop.Controls.RemoveAt(0);
+            Form fh = FormUser as Form;
+            fh.TopLevel = false;
+            fh.Dock = DockStyle.Fill;
+            this.panelDesktop.Controls.Add(fh);
+            this.panelDesktop.Tag = fh;
+            fh.Show();
+
+        }
+        private void btnUsersForm_Click(object sender, EventArgs e)
+        {
+            openFormUser(new UserForm());
+        }
     }
 }

@@ -30,7 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             panelMenu = new Panel();
-            iconButton9 = new FontAwesome.Sharp.IconButton();
+            btnUsersForm = new FontAwesome.Sharp.IconButton();
             btnExit = new FontAwesome.Sharp.IconButton();
             iconButton7 = new FontAwesome.Sharp.IconButton();
             iconButton6 = new FontAwesome.Sharp.IconButton();
@@ -99,7 +99,7 @@
             // panelMenu
             // 
             panelMenu.BackColor = Color.FromArgb(0, 84, 92);
-            panelMenu.Controls.Add(iconButton9);
+            panelMenu.Controls.Add(btnUsersForm);
             panelMenu.Controls.Add(btnExit);
             panelMenu.Controls.Add(iconButton7);
             panelMenu.Controls.Add(iconButton6);
@@ -115,29 +115,30 @@
             panelMenu.Size = new Size(285, 944);
             panelMenu.TabIndex = 0;
             // 
-            // iconButton9
+            // btnUsersForm
             // 
-            iconButton9.Cursor = Cursors.Hand;
-            iconButton9.Dock = DockStyle.Top;
-            iconButton9.FlatAppearance.BorderSize = 0;
-            iconButton9.FlatStyle = FlatStyle.Flat;
-            iconButton9.Font = new Font("Verdana", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            iconButton9.ForeColor = Color.White;
-            iconButton9.IconChar = FontAwesome.Sharp.IconChar.UserAlt;
-            iconButton9.IconColor = Color.White;
-            iconButton9.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            iconButton9.IconSize = 35;
-            iconButton9.ImageAlign = ContentAlignment.MiddleLeft;
-            iconButton9.Location = new Point(0, 464);
-            iconButton9.Name = "iconButton9";
-            iconButton9.Padding = new Padding(10, 0, 0, 0);
-            iconButton9.Size = new Size(285, 60);
-            iconButton9.TabIndex = 8;
-            iconButton9.Tag = "Usuarios";
-            iconButton9.Text = " iconButton2";
-            iconButton9.TextAlign = ContentAlignment.MiddleLeft;
-            iconButton9.TextImageRelation = TextImageRelation.ImageBeforeText;
-            iconButton9.UseVisualStyleBackColor = true;
+            btnUsersForm.Cursor = Cursors.Hand;
+            btnUsersForm.Dock = DockStyle.Top;
+            btnUsersForm.FlatAppearance.BorderSize = 0;
+            btnUsersForm.FlatStyle = FlatStyle.Flat;
+            btnUsersForm.Font = new Font("Verdana", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            btnUsersForm.ForeColor = Color.White;
+            btnUsersForm.IconChar = FontAwesome.Sharp.IconChar.UserAlt;
+            btnUsersForm.IconColor = Color.White;
+            btnUsersForm.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            btnUsersForm.IconSize = 35;
+            btnUsersForm.ImageAlign = ContentAlignment.MiddleLeft;
+            btnUsersForm.Location = new Point(0, 464);
+            btnUsersForm.Name = "btnUsersForm";
+            btnUsersForm.Padding = new Padding(10, 0, 0, 0);
+            btnUsersForm.Size = new Size(285, 60);
+            btnUsersForm.TabIndex = 8;
+            btnUsersForm.Tag = "Usuarios";
+            btnUsersForm.Text = " iconButton2";
+            btnUsersForm.TextAlign = ContentAlignment.MiddleLeft;
+            btnUsersForm.TextImageRelation = TextImageRelation.ImageBeforeText;
+            btnUsersForm.UseVisualStyleBackColor = true;
+            btnUsersForm.Click += btnUsersForm_Click;
             // 
             // btnExit
             // 
@@ -877,7 +878,7 @@
         private FontAwesome.Sharp.IconButton btnMenu;
         private FontAwesome.Sharp.IconButton btnHome;
         private FontAwesome.Sharp.IconButton btnExit;
-        private FontAwesome.Sharp.IconButton iconButton9;
+        private FontAwesome.Sharp.IconButton btnUsersForm;
         private FontAwesome.Sharp.IconButton iconButton7;
         private FontAwesome.Sharp.IconButton iconButton6;
         private FontAwesome.Sharp.IconButton iconButton5;
