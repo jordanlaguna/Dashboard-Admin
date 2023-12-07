@@ -175,5 +175,21 @@ namespace Dashboard
         {
             openFormUser(new UserForm());
         }
+        private void openFormLaptop(object FormLaptop)
+        {
+            if (panelDesktop.Controls.Count > 0)
+                this.panelDesktop.Controls.RemoveAt(0);
+            Form fh = FormLaptop as Form;
+            fh.TopLevel = false;
+            fh.Dock = DockStyle.Fill;
+            this.panelDesktop.Controls.Add(fh);
+            this.panelDesktop.Tag = fh;
+            fh.Show();
+
+        }
+        private void btnLaptos_Click(object sender, EventArgs e)
+        {
+            openFormLaptop(new ComputerForm());
+        }
     }
 }

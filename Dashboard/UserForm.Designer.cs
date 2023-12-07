@@ -154,7 +154,7 @@
             textBox6.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             textBox6.BackColor = Color.SeaShell;
             textBox6.BorderStyle = BorderStyle.None;
-            textBox6.Font = new Font("Verdana", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            textBox6.Font = new Font("Times New Roman", 13F, FontStyle.Regular, GraphicsUnit.Point);
             textBox6.ForeColor = Color.Black;
             textBox6.Location = new Point(15, 218);
             textBox6.Multiline = true;
@@ -179,7 +179,7 @@
             textBox5.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             textBox5.BackColor = Color.SeaShell;
             textBox5.BorderStyle = BorderStyle.None;
-            textBox5.Font = new Font("Verdana", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            textBox5.Font = new Font("Times New Roman", 13F, FontStyle.Regular, GraphicsUnit.Point);
             textBox5.ForeColor = Color.Black;
             textBox5.Location = new Point(15, 67);
             textBox5.Multiline = true;
@@ -201,7 +201,7 @@
             // 
             // label1
             // 
-            label1.Font = new Font("Verdana", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label1.Font = new Font("Times New Roman", 13F, FontStyle.Regular, GraphicsUnit.Point);
             label1.ForeColor = Color.Black;
             label1.Location = new Point(3, 26);
             label1.Name = "label1";
@@ -212,7 +212,7 @@
             // 
             // label5
             // 
-            label5.Font = new Font("Verdana", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label5.Font = new Font("Times New Roman", 13F, FontStyle.Regular, GraphicsUnit.Point);
             label5.ForeColor = Color.Black;
             label5.Location = new Point(6, 177);
             label5.Name = "label5";
@@ -241,7 +241,7 @@
             textBox4.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             textBox4.BackColor = Color.SeaShell;
             textBox4.BorderStyle = BorderStyle.None;
-            textBox4.Font = new Font("Verdana", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            textBox4.Font = new Font("Times New Roman", 13F, FontStyle.Regular, GraphicsUnit.Point);
             textBox4.ForeColor = Color.Black;
             textBox4.Location = new Point(18, 67);
             textBox4.Multiline = true;
@@ -274,7 +274,7 @@
             // 
             // label6
             // 
-            label6.Font = new Font("Verdana", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label6.Font = new Font("Times New Roman", 13F, FontStyle.Regular, GraphicsUnit.Point);
             label6.ForeColor = Color.Black;
             label6.Location = new Point(4, 177);
             label6.Name = "label6";
@@ -285,7 +285,7 @@
             // 
             // label2
             // 
-            label2.Font = new Font("Verdana", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label2.Font = new Font("Times New Roman", 13F, FontStyle.Regular, GraphicsUnit.Point);
             label2.ForeColor = Color.Black;
             label2.Location = new Point(3, 26);
             label2.Name = "label2";
@@ -315,7 +315,7 @@
             textBox1.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             textBox1.BackColor = Color.SeaShell;
             textBox1.BorderStyle = BorderStyle.None;
-            textBox1.Font = new Font("Verdana", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            textBox1.Font = new Font("Times New Roman", 13F, FontStyle.Regular, GraphicsUnit.Point);
             textBox1.ForeColor = Color.Black;
             textBox1.Location = new Point(20, 218);
             textBox1.Multiline = true;
@@ -337,7 +337,7 @@
             // 
             // label3
             // 
-            label3.Font = new Font("Verdana", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label3.Font = new Font("Times New Roman", 13F, FontStyle.Regular, GraphicsUnit.Point);
             label3.ForeColor = Color.Black;
             label3.Location = new Point(4, 26);
             label3.Name = "label3";
@@ -351,7 +351,7 @@
             txtLastName.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             txtLastName.BackColor = Color.SeaShell;
             txtLastName.BorderStyle = BorderStyle.None;
-            txtLastName.Font = new Font("Verdana", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            txtLastName.Font = new Font("Times New Roman", 13F, FontStyle.Regular, GraphicsUnit.Point);
             txtLastName.ForeColor = Color.Black;
             txtLastName.Location = new Point(20, 67);
             txtLastName.Multiline = true;
@@ -373,7 +373,7 @@
             // 
             // label7
             // 
-            label7.Font = new Font("Verdana", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label7.Font = new Font("Times New Roman", 13F, FontStyle.Regular, GraphicsUnit.Point);
             label7.ForeColor = Color.Black;
             label7.Location = new Point(4, 177);
             label7.Name = "label7";
@@ -403,7 +403,7 @@
             textBox3.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             textBox3.BackColor = Color.SeaShell;
             textBox3.BorderStyle = BorderStyle.None;
-            textBox3.Font = new Font("Verdana", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            textBox3.Font = new Font("Times New Roman", 13F, FontStyle.Regular, GraphicsUnit.Point);
             textBox3.ForeColor = Color.Black;
             textBox3.Location = new Point(20, 218);
             textBox3.Multiline = true;
@@ -429,7 +429,7 @@
             textBox2.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             textBox2.BackColor = Color.SeaShell;
             textBox2.BorderStyle = BorderStyle.None;
-            textBox2.Font = new Font("Verdana", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            textBox2.Font = new Font("Times New Roman", 13F, FontStyle.Regular, GraphicsUnit.Point);
             textBox2.ForeColor = Color.Black;
             textBox2.Location = new Point(20, 67);
             textBox2.Multiline = true;
@@ -451,7 +451,7 @@
             // 
             // label4
             // 
-            label4.Font = new Font("Verdana", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label4.Font = new Font("Times New Roman", 13F, FontStyle.Regular, GraphicsUnit.Point);
             label4.ForeColor = Color.Black;
             label4.Location = new Point(3, 26);
             label4.Name = "label4";
@@ -462,7 +462,7 @@
             // 
             // label8
             // 
-            label8.Font = new Font("Verdana", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label8.Font = new Font("Times New Roman", 13F, FontStyle.Regular, GraphicsUnit.Point);
             label8.ForeColor = Color.Black;
             label8.Location = new Point(3, 177);
             label8.Name = "label8";
@@ -520,7 +520,7 @@
             button1.FlatAppearance.BorderColor = Color.White;
             button1.FlatAppearance.BorderSize = 5;
             button1.FlatStyle = FlatStyle.Popup;
-            button1.Font = new Font("Verdana", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            button1.Font = new Font("Times New Roman", 13F, FontStyle.Regular, GraphicsUnit.Point);
             button1.ForeColor = Color.White;
             button1.Location = new Point(173, 27);
             button1.Name = "button1";
@@ -561,7 +561,7 @@
             button2.FlatAppearance.BorderColor = Color.White;
             button2.FlatAppearance.BorderSize = 5;
             button2.FlatStyle = FlatStyle.Popup;
-            button2.Font = new Font("Verdana", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            button2.Font = new Font("Times New Roman", 13F, FontStyle.Regular, GraphicsUnit.Point);
             button2.ForeColor = Color.White;
             button2.Location = new Point(173, 27);
             button2.Name = "button2";
@@ -610,7 +610,7 @@
             tableUsers.BorderStyle = BorderStyle.None;
             dataGridViewCellStyle1.Alignment = DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle1.BackColor = Color.SeaShell;
-            dataGridViewCellStyle1.Font = new Font("Verdana", 11F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle1.Font = new Font("Times New Roman", 11F, FontStyle.Regular, GraphicsUnit.Point);
             dataGridViewCellStyle1.ForeColor = Color.Black;
             dataGridViewCellStyle1.SelectionBackColor = Color.Transparent;
             dataGridViewCellStyle1.SelectionForeColor = SystemColors.HighlightText;
@@ -620,7 +620,7 @@
             tableUsers.Columns.AddRange(new DataGridViewColumn[] { ColumnBirthDate, ColumnIdentification, ColumnName, ColumnLastName, ColumnsecondName, ColumnTelephone, ColumnEmail, ColumnPassword });
             dataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle2.BackColor = Color.FromArgb(0, 84, 92);
-            dataGridViewCellStyle2.Font = new Font("Verdana", 11F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle2.Font = new Font("Times New Roman", 12F, FontStyle.Regular, GraphicsUnit.Point);
             dataGridViewCellStyle2.ForeColor = Color.Black;
             dataGridViewCellStyle2.SelectionBackColor = Color.Transparent;
             dataGridViewCellStyle2.SelectionForeColor = Color.Transparent;
@@ -724,7 +724,7 @@
             // 
             // txtSearch
             // 
-            txtSearch.Font = new Font("Verdana", 13F, FontStyle.Regular, GraphicsUnit.Point);
+            txtSearch.Font = new Font("Times New Roman", 14F, FontStyle.Regular, GraphicsUnit.Point);
             txtSearch.Location = new Point(3, 32);
             txtSearch.Multiline = true;
             txtSearch.Name = "txtSearch";

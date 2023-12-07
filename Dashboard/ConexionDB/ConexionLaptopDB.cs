@@ -1,14 +1,13 @@
 ﻿using MySql.Data.MySqlClient;
 using System;
 using System.Collections.Generic;
-using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Dashboard.Model;
 namespace Dashboard.ConexionDB
 {
-    internal class ConexionBook
+    internal class ConexionLaptopDB
     {
         public static MySqlConnection GetConnection()
         {
@@ -26,42 +25,38 @@ namespace Dashboard.ConexionDB
             }
             return conn;
         }
-        public static List<Model.Books> DataTableBooks()
+        public static List <Model.Laptop> DataTableLaptop()
         {
-            List<Books> books = new List<Books>();
-
-            using (MySqlConnection conexion = GetConnection())
+            List<Laptop> laptop = new List<Laptop>(); 
+            using (MySqlConnection conn = GetConnection())
             {
                 try
                 {
-                    string consulta = "select * from book";
-
-                    using (MySqlCommand comando = new MySqlCommand(consulta, conexion))
+                    string queryDB = "select * from laptop";
+                    using (MySqlCommand cmd = new MySqlCommand(queryDB, conn))
                     {
-                        using (MySqlDataReader reader = comando.ExecuteReader())
+                        using (MySqlDataReader reader = cmd.ExecuteReader())
                         {
                             while (reader.Read())
                             {
-                                Books book = new Books(
-                                    reader.GetInt32("isbn"),
-                                    reader.GetString("authorBook"),
-                                    reader.GetString("title"),
-                                    reader.GetString("editorial"),
-                                    reader.GetString("available"),
-                                    reader.GetDateTime("releaseDate")
-                                );
-                                books.Add(book);
+                                Laptop laptops = new Laptop(
+                                    reader.GetString("code"),
+                                    reader.GetString("trademark"),
+                                    reader.GetString("ubication"),
+                                    reader.GetString("available")
+                                    );
+                                laptop.Add(laptops);  
                             }
                         }
                     }
                 }
-                catch (Exception ex)
+                catch (MySqlException ex)
                 {
                     MessageBox.Show("Error al obtener datos de la tabla 'book'\n" + ex.Message,
                         "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
-            return books;
+            return laptop;
         }
     }
 }

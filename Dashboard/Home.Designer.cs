@@ -231,7 +231,7 @@
             // label1
             // 
             label1.Anchor = AnchorStyles.Top;
-            label1.Font = new Font("Verdana", 15F, FontStyle.Regular, GraphicsUnit.Point);
+            label1.Font = new Font("Times New Roman", 16F, FontStyle.Regular, GraphicsUnit.Point);
             label1.ForeColor = Color.Black;
             label1.Location = new Point(0, 58);
             label1.Name = "label1";
@@ -310,7 +310,7 @@
             // label2
             // 
             label2.Anchor = AnchorStyles.Top;
-            label2.Font = new Font("Verdana", 14F, FontStyle.Regular, GraphicsUnit.Point);
+            label2.Font = new Font("Times New Roman", 15F, FontStyle.Regular, GraphicsUnit.Point);
             label2.Location = new Point(3, 115);
             label2.Name = "label2";
             label2.Size = new Size(290, 32);
@@ -321,7 +321,7 @@
             // label3
             // 
             label3.Anchor = AnchorStyles.Top;
-            label3.Font = new Font("Verdana", 14F, FontStyle.Regular, GraphicsUnit.Point);
+            label3.Font = new Font("Times New Roman", 15F, FontStyle.Regular, GraphicsUnit.Point);
             label3.Location = new Point(3, 147);
             label3.Name = "label3";
             label3.Size = new Size(290, 38);
@@ -356,7 +356,7 @@
             // label4
             // 
             label4.Anchor = AnchorStyles.Top;
-            label4.Font = new Font("Verdana", 14F, FontStyle.Regular, GraphicsUnit.Point);
+            label4.Font = new Font("Times New Roman", 15F, FontStyle.Regular, GraphicsUnit.Point);
             label4.Location = new Point(3, 115);
             label4.Name = "label4";
             label4.Size = new Size(292, 32);
@@ -367,7 +367,7 @@
             // label5
             // 
             label5.Anchor = AnchorStyles.Top;
-            label5.Font = new Font("Verdana", 14F, FontStyle.Regular, GraphicsUnit.Point);
+            label5.Font = new Font("Times New Roman", 15F, FontStyle.Regular, GraphicsUnit.Point);
             label5.Location = new Point(3, 147);
             label5.Name = "label5";
             label5.Size = new Size(292, 38);
@@ -402,7 +402,7 @@
             // lblBooks
             // 
             lblBooks.Anchor = AnchorStyles.Top;
-            lblBooks.Font = new Font("Verdana", 14F, FontStyle.Regular, GraphicsUnit.Point);
+            lblBooks.Font = new Font("Times New Roman", 15F, FontStyle.Regular, GraphicsUnit.Point);
             lblBooks.Location = new Point(3, 115);
             lblBooks.Name = "lblBooks";
             lblBooks.Size = new Size(293, 32);
@@ -413,7 +413,7 @@
             // label11
             // 
             label11.Anchor = AnchorStyles.Top;
-            label11.Font = new Font("Verdana", 14F, FontStyle.Regular, GraphicsUnit.Point);
+            label11.Font = new Font("Times New Roman", 15F, FontStyle.Regular, GraphicsUnit.Point);
             label11.Location = new Point(3, 147);
             label11.Name = "label11";
             label11.Size = new Size(290, 38);
@@ -448,7 +448,7 @@
             // label12
             // 
             label12.Anchor = AnchorStyles.Top;
-            label12.Font = new Font("Verdana", 14F, FontStyle.Regular, GraphicsUnit.Point);
+            label12.Font = new Font("Times New Roman", 15F, FontStyle.Regular, GraphicsUnit.Point);
             label12.Location = new Point(3, 115);
             label12.Name = "label12";
             label12.Size = new Size(290, 32);
@@ -459,7 +459,7 @@
             // label13
             // 
             label13.Anchor = AnchorStyles.Top;
-            label13.Font = new Font("Verdana", 14F, FontStyle.Regular, GraphicsUnit.Point);
+            label13.Font = new Font("Times New Roman", 15F, FontStyle.Regular, GraphicsUnit.Point);
             label13.Location = new Point(3, 147);
             label13.Name = "label13";
             label13.Size = new Size(293, 38);
@@ -524,7 +524,7 @@
             // label23
             // 
             label23.Anchor = AnchorStyles.Top;
-            label23.Font = new Font("Verdana", 14F, FontStyle.Regular, GraphicsUnit.Point);
+            label23.Font = new Font("Times New Roman", 15F, FontStyle.Regular, GraphicsUnit.Point);
             label23.Location = new Point(53, 115);
             label23.Name = "label23";
             label23.Size = new Size(290, 32);
@@ -535,7 +535,7 @@
             // label24
             // 
             label24.Anchor = AnchorStyles.Top;
-            label24.Font = new Font("Verdana", 14F, FontStyle.Regular, GraphicsUnit.Point);
+            label24.Font = new Font("Times New Roman", 15F, FontStyle.Regular, GraphicsUnit.Point);
             label24.Location = new Point(56, 147);
             label24.Name = "label24";
             label24.Size = new Size(290, 38);
@@ -570,7 +570,7 @@
             // label21
             // 
             label21.Anchor = AnchorStyles.Top;
-            label21.Font = new Font("Verdana", 14F, FontStyle.Regular, GraphicsUnit.Point);
+            label21.Font = new Font("Times New Roman", 15F, FontStyle.Regular, GraphicsUnit.Point);
             label21.Location = new Point(53, 115);
             label21.Name = "label21";
             label21.Size = new Size(292, 32);
@@ -581,7 +581,7 @@
             // label22
             // 
             label22.Anchor = AnchorStyles.Top;
-            label22.Font = new Font("Verdana", 14F, FontStyle.Regular, GraphicsUnit.Point);
+            label22.Font = new Font("Times New Roman", 15F, FontStyle.Regular, GraphicsUnit.Point);
             label22.Location = new Point(56, 147);
             label22.Name = "label22";
             label22.Size = new Size(292, 38);
@@ -616,7 +616,7 @@
             // label15
             // 
             label15.Anchor = AnchorStyles.Top;
-            label15.Font = new Font("Verdana", 14F, FontStyle.Regular, GraphicsUnit.Point);
+            label15.Font = new Font("Times New Roman", 15F, FontStyle.Regular, GraphicsUnit.Point);
             label15.Location = new Point(53, 115);
             label15.Name = "label15";
             label15.Size = new Size(293, 32);
@@ -627,7 +627,7 @@
             // label16
             // 
             label16.Anchor = AnchorStyles.Top;
-            label16.Font = new Font("Verdana", 14F, FontStyle.Regular, GraphicsUnit.Point);
+            label16.Font = new Font("Times New Roman", 15F, FontStyle.Regular, GraphicsUnit.Point);
             label16.Location = new Point(56, 147);
             label16.Name = "label16";
             label16.Size = new Size(290, 38);
@@ -682,7 +682,7 @@
             // label14
             // 
             label14.Anchor = AnchorStyles.Top;
-            label14.Font = new Font("Verdana", 15F, FontStyle.Regular, GraphicsUnit.Point);
+            label14.Font = new Font("Times New Roman", 16F, FontStyle.Regular, GraphicsUnit.Point);
             label14.ForeColor = Color.Black;
             label14.Location = new Point(0, 128);
             label14.Name = "label14";

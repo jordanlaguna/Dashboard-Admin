@@ -35,7 +35,7 @@
             iconButton7 = new FontAwesome.Sharp.IconButton();
             iconButton6 = new FontAwesome.Sharp.IconButton();
             iconButton5 = new FontAwesome.Sharp.IconButton();
-            iconButton4 = new FontAwesome.Sharp.IconButton();
+            btnLaptos = new FontAwesome.Sharp.IconButton();
             btnOpenBook = new FontAwesome.Sharp.IconButton();
             btnHome = new FontAwesome.Sharp.IconButton();
             panel1 = new Panel();
@@ -104,7 +104,7 @@
             panelMenu.Controls.Add(iconButton7);
             panelMenu.Controls.Add(iconButton6);
             panelMenu.Controls.Add(iconButton5);
-            panelMenu.Controls.Add(iconButton4);
+            panelMenu.Controls.Add(btnLaptos);
             panelMenu.Controls.Add(btnOpenBook);
             panelMenu.Controls.Add(btnHome);
             panelMenu.Controls.Add(panel1);
@@ -121,14 +121,14 @@
             btnUsersForm.Dock = DockStyle.Top;
             btnUsersForm.FlatAppearance.BorderSize = 0;
             btnUsersForm.FlatStyle = FlatStyle.Flat;
-            btnUsersForm.Font = new Font("Verdana", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            btnUsersForm.Font = new Font("Times New Roman", 14F, FontStyle.Regular, GraphicsUnit.Point);
             btnUsersForm.ForeColor = Color.White;
             btnUsersForm.IconChar = FontAwesome.Sharp.IconChar.UserAlt;
             btnUsersForm.IconColor = Color.White;
             btnUsersForm.IconFont = FontAwesome.Sharp.IconFont.Auto;
             btnUsersForm.IconSize = 35;
             btnUsersForm.ImageAlign = ContentAlignment.MiddleLeft;
-            btnUsersForm.Location = new Point(0, 464);
+            btnUsersForm.Location = new Point(0, 492);
             btnUsersForm.Name = "btnUsersForm";
             btnUsersForm.Padding = new Padding(10, 0, 0, 0);
             btnUsersForm.Size = new Size(285, 60);
@@ -146,7 +146,7 @@
             btnExit.Dock = DockStyle.Bottom;
             btnExit.FlatAppearance.BorderSize = 0;
             btnExit.FlatStyle = FlatStyle.Flat;
-            btnExit.Font = new Font("Verdana", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            btnExit.Font = new Font("Times New Roman", 14F, FontStyle.Regular, GraphicsUnit.Point);
             btnExit.ForeColor = Color.White;
             btnExit.IconChar = FontAwesome.Sharp.IconChar.SignOutAlt;
             btnExit.IconColor = Color.White;
@@ -171,14 +171,14 @@
             iconButton7.Dock = DockStyle.Top;
             iconButton7.FlatAppearance.BorderSize = 0;
             iconButton7.FlatStyle = FlatStyle.Flat;
-            iconButton7.Font = new Font("Verdana", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            iconButton7.Font = new Font("Times New Roman", 14F, FontStyle.Regular, GraphicsUnit.Point);
             iconButton7.ForeColor = Color.White;
             iconButton7.IconChar = FontAwesome.Sharp.IconChar.CalendarCheck;
             iconButton7.IconColor = Color.White;
             iconButton7.IconFont = FontAwesome.Sharp.IconFont.Auto;
             iconButton7.IconSize = 35;
             iconButton7.ImageAlign = ContentAlignment.MiddleLeft;
-            iconButton7.Location = new Point(0, 404);
+            iconButton7.Location = new Point(0, 432);
             iconButton7.Name = "iconButton7";
             iconButton7.Padding = new Padding(10, 0, 0, 0);
             iconButton7.Size = new Size(285, 60);
@@ -195,14 +195,14 @@
             iconButton6.Dock = DockStyle.Top;
             iconButton6.FlatAppearance.BorderSize = 0;
             iconButton6.FlatStyle = FlatStyle.Flat;
-            iconButton6.Font = new Font("Verdana", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            iconButton6.Font = new Font("Times New Roman", 14F, FontStyle.Regular, GraphicsUnit.Point);
             iconButton6.ForeColor = Color.White;
             iconButton6.IconChar = FontAwesome.Sharp.IconChar.ListCheck;
             iconButton6.IconColor = Color.White;
             iconButton6.IconFont = FontAwesome.Sharp.IconFont.Auto;
             iconButton6.IconSize = 35;
             iconButton6.ImageAlign = ContentAlignment.MiddleLeft;
-            iconButton6.Location = new Point(0, 344);
+            iconButton6.Location = new Point(0, 372);
             iconButton6.Name = "iconButton6";
             iconButton6.Padding = new Padding(10, 0, 0, 0);
             iconButton6.Size = new Size(285, 60);
@@ -219,14 +219,14 @@
             iconButton5.Dock = DockStyle.Top;
             iconButton5.FlatAppearance.BorderSize = 0;
             iconButton5.FlatStyle = FlatStyle.Flat;
-            iconButton5.Font = new Font("Verdana", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            iconButton5.Font = new Font("Times New Roman", 14F, FontStyle.Regular, GraphicsUnit.Point);
             iconButton5.ForeColor = Color.White;
             iconButton5.IconChar = FontAwesome.Sharp.IconChar.TabletScreenButton;
             iconButton5.IconColor = Color.White;
             iconButton5.IconFont = FontAwesome.Sharp.IconFont.Auto;
             iconButton5.IconSize = 35;
             iconButton5.ImageAlign = ContentAlignment.MiddleLeft;
-            iconButton5.Location = new Point(0, 284);
+            iconButton5.Location = new Point(0, 312);
             iconButton5.Name = "iconButton5";
             iconButton5.Padding = new Padding(10, 0, 0, 0);
             iconButton5.Size = new Size(285, 60);
@@ -237,29 +237,30 @@
             iconButton5.TextImageRelation = TextImageRelation.ImageBeforeText;
             iconButton5.UseVisualStyleBackColor = true;
             // 
-            // iconButton4
+            // btnLaptos
             // 
-            iconButton4.Cursor = Cursors.Hand;
-            iconButton4.Dock = DockStyle.Top;
-            iconButton4.FlatAppearance.BorderSize = 0;
-            iconButton4.FlatStyle = FlatStyle.Flat;
-            iconButton4.Font = new Font("Verdana", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            iconButton4.ForeColor = Color.White;
-            iconButton4.IconChar = FontAwesome.Sharp.IconChar.Laptop;
-            iconButton4.IconColor = Color.White;
-            iconButton4.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            iconButton4.IconSize = 35;
-            iconButton4.ImageAlign = ContentAlignment.MiddleLeft;
-            iconButton4.Location = new Point(0, 224);
-            iconButton4.Name = "iconButton4";
-            iconButton4.Padding = new Padding(10, 0, 0, 0);
-            iconButton4.Size = new Size(285, 60);
-            iconButton4.TabIndex = 3;
-            iconButton4.Tag = "Laptops";
-            iconButton4.Text = " iconButton2";
-            iconButton4.TextAlign = ContentAlignment.MiddleLeft;
-            iconButton4.TextImageRelation = TextImageRelation.ImageBeforeText;
-            iconButton4.UseVisualStyleBackColor = true;
+            btnLaptos.Cursor = Cursors.Hand;
+            btnLaptos.Dock = DockStyle.Top;
+            btnLaptos.FlatAppearance.BorderSize = 0;
+            btnLaptos.FlatStyle = FlatStyle.Flat;
+            btnLaptos.Font = new Font("Times New Roman", 14F, FontStyle.Regular, GraphicsUnit.Point);
+            btnLaptos.ForeColor = Color.White;
+            btnLaptos.IconChar = FontAwesome.Sharp.IconChar.Laptop;
+            btnLaptos.IconColor = Color.White;
+            btnLaptos.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            btnLaptos.IconSize = 35;
+            btnLaptos.ImageAlign = ContentAlignment.MiddleLeft;
+            btnLaptos.Location = new Point(0, 252);
+            btnLaptos.Name = "btnLaptos";
+            btnLaptos.Padding = new Padding(10, 0, 0, 0);
+            btnLaptos.Size = new Size(285, 60);
+            btnLaptos.TabIndex = 3;
+            btnLaptos.Tag = "Laptops";
+            btnLaptos.Text = " iconButton2";
+            btnLaptos.TextAlign = ContentAlignment.MiddleLeft;
+            btnLaptos.TextImageRelation = TextImageRelation.ImageBeforeText;
+            btnLaptos.UseVisualStyleBackColor = true;
+            btnLaptos.Click += btnLaptos_Click;
             // 
             // btnOpenBook
             // 
@@ -267,14 +268,14 @@
             btnOpenBook.Dock = DockStyle.Top;
             btnOpenBook.FlatAppearance.BorderSize = 0;
             btnOpenBook.FlatStyle = FlatStyle.Flat;
-            btnOpenBook.Font = new Font("Verdana", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            btnOpenBook.Font = new Font("Times New Roman", 14F, FontStyle.Regular, GraphicsUnit.Point);
             btnOpenBook.ForeColor = Color.White;
             btnOpenBook.IconChar = FontAwesome.Sharp.IconChar.Book;
             btnOpenBook.IconColor = Color.White;
             btnOpenBook.IconFont = FontAwesome.Sharp.IconFont.Auto;
             btnOpenBook.IconSize = 35;
             btnOpenBook.ImageAlign = ContentAlignment.MiddleLeft;
-            btnOpenBook.Location = new Point(0, 164);
+            btnOpenBook.Location = new Point(0, 192);
             btnOpenBook.Name = "btnOpenBook";
             btnOpenBook.Padding = new Padding(10, 0, 0, 0);
             btnOpenBook.Size = new Size(285, 60);
@@ -292,14 +293,14 @@
             btnHome.Dock = DockStyle.Top;
             btnHome.FlatAppearance.BorderSize = 0;
             btnHome.FlatStyle = FlatStyle.Flat;
-            btnHome.Font = new Font("Verdana", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            btnHome.Font = new Font("Times New Roman", 14F, FontStyle.Regular, GraphicsUnit.Point);
             btnHome.ForeColor = Color.White;
             btnHome.IconChar = FontAwesome.Sharp.IconChar.HomeUser;
             btnHome.IconColor = Color.White;
             btnHome.IconFont = FontAwesome.Sharp.IconFont.Auto;
             btnHome.IconSize = 35;
             btnHome.ImageAlign = ContentAlignment.MiddleLeft;
-            btnHome.Location = new Point(0, 104);
+            btnHome.Location = new Point(0, 132);
             btnHome.Name = "btnHome";
             btnHome.Padding = new Padding(10, 0, 0, 0);
             btnHome.Size = new Size(285, 60);
@@ -318,7 +319,7 @@
             panel1.Dock = DockStyle.Top;
             panel1.Location = new Point(0, 0);
             panel1.Name = "panel1";
-            panel1.Size = new Size(285, 104);
+            panel1.Size = new Size(285, 132);
             panel1.TabIndex = 0;
             // 
             // btnMenu
@@ -330,7 +331,7 @@
             btnMenu.IconColor = Color.White;
             btnMenu.IconFont = FontAwesome.Sharp.IconFont.Auto;
             btnMenu.IconSize = 45;
-            btnMenu.Location = new Point(201, 14);
+            btnMenu.Location = new Point(201, 25);
             btnMenu.Name = "btnMenu";
             btnMenu.RightToLeft = RightToLeft.No;
             btnMenu.Size = new Size(78, 70);
@@ -427,11 +428,11 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Font = new Font("Verdana", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label2.Font = new Font("Times New Roman", 13F, FontStyle.Regular, GraphicsUnit.Point);
             label2.ForeColor = Color.Black;
             label2.Location = new Point(81, 66);
             label2.Name = "label2";
-            label2.Size = new Size(275, 29);
+            label2.Size = new Size(279, 29);
             label2.TabIndex = 0;
             label2.Text = "SISTEMA BIBLIOTECA";
             // 
@@ -466,7 +467,7 @@
             // 
             txtUser.BackColor = Color.White;
             txtUser.BorderStyle = BorderStyle.None;
-            txtUser.Font = new Font("Verdana", 10F, FontStyle.Regular, GraphicsUnit.Point);
+            txtUser.Font = new Font("Times New Roman", 11F, FontStyle.Regular, GraphicsUnit.Point);
             txtUser.ForeColor = Color.Black;
             txtUser.Location = new Point(81, 34);
             txtUser.Margin = new Padding(0);
@@ -512,7 +513,7 @@
             // 
             // label12
             // 
-            label12.Font = new Font("Verdana", 10F, FontStyle.Regular, GraphicsUnit.Point);
+            label12.Font = new Font("Times New Roman", 11F, FontStyle.Regular, GraphicsUnit.Point);
             label12.ForeColor = Color.Black;
             label12.Location = new Point(81, 9);
             label12.Name = "label12";
@@ -582,7 +583,7 @@
             // label5
             // 
             label5.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-            label5.Font = new Font("Verdana", 15F, FontStyle.Regular, GraphicsUnit.Point);
+            label5.Font = new Font("Times New Roman", 13F, FontStyle.Regular, GraphicsUnit.Point);
             label5.Location = new Point(0, 76);
             label5.Name = "label5";
             label5.Size = new Size(287, 47);
@@ -593,7 +594,7 @@
             // label4
             // 
             label4.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
-            label4.Font = new Font("Verdana", 11F, FontStyle.Regular, GraphicsUnit.Point);
+            label4.Font = new Font("Times New Roman", 13F, FontStyle.Regular, GraphicsUnit.Point);
             label4.Location = new Point(6, 141);
             label4.Name = "label4";
             label4.Padding = new Padding(5, 0, 0, 0);
@@ -605,7 +606,7 @@
             // label3
             // 
             label3.Anchor = AnchorStyles.Left;
-            label3.Font = new Font("Verdana", 14F, FontStyle.Regular, GraphicsUnit.Point);
+            label3.Font = new Font("Times New Roman", 13F, FontStyle.Regular, GraphicsUnit.Point);
             label3.Location = new Point(0, 8);
             label3.Name = "label3";
             label3.Size = new Size(151, 35);
@@ -615,7 +616,7 @@
             // label6
             // 
             label6.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-            label6.Font = new Font("Verdana", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label6.Font = new Font("Times New Roman", 13F, FontStyle.Regular, GraphicsUnit.Point);
             label6.Location = new Point(-3, 158);
             label6.Name = "label6";
             label6.Size = new Size(290, 29);
@@ -640,7 +641,7 @@
             // label9
             // 
             label9.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
-            label9.Font = new Font("Verdana", 11F, FontStyle.Regular, GraphicsUnit.Point);
+            label9.Font = new Font("Times New Roman", 13F, FontStyle.Regular, GraphicsUnit.Point);
             label9.ForeColor = Color.Black;
             label9.Location = new Point(6, 141);
             label9.Name = "label9";
@@ -653,7 +654,7 @@
             // label8
             // 
             label8.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-            label8.Font = new Font("Verdana", 15F, FontStyle.Regular, GraphicsUnit.Point);
+            label8.Font = new Font("Times New Roman", 13F, FontStyle.Regular, GraphicsUnit.Point);
             label8.ForeColor = Color.Black;
             label8.Location = new Point(-2, 76);
             label8.Name = "label8";
@@ -676,7 +677,7 @@
             // label7
             // 
             label7.Anchor = AnchorStyles.Left;
-            label7.Font = new Font("Verdana", 14F, FontStyle.Regular, GraphicsUnit.Point);
+            label7.Font = new Font("Times New Roman", 13F, FontStyle.Regular, GraphicsUnit.Point);
             label7.ForeColor = Color.Black;
             label7.Location = new Point(0, 8);
             label7.Name = "label7";
@@ -687,7 +688,7 @@
             // label10
             // 
             label10.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-            label10.Font = new Font("Verdana", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label10.Font = new Font("Times New Roman", 13F, FontStyle.Regular, GraphicsUnit.Point);
             label10.ForeColor = Color.Black;
             label10.Location = new Point(-5, 158);
             label10.Name = "label10";
@@ -713,7 +714,7 @@
             // label14
             // 
             label14.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
-            label14.Font = new Font("Verdana", 11F, FontStyle.Regular, GraphicsUnit.Point);
+            label14.Font = new Font("Times New Roman", 13F, FontStyle.Regular, GraphicsUnit.Point);
             label14.Location = new Point(6, 141);
             label14.Name = "label14";
             label14.Padding = new Padding(5, 0, 0, 0);
@@ -725,7 +726,7 @@
             // label13
             // 
             label13.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-            label13.Font = new Font("Verdana", 14F, FontStyle.Regular, GraphicsUnit.Point);
+            label13.Font = new Font("Times New Roman", 13F, FontStyle.Regular, GraphicsUnit.Point);
             label13.Location = new Point(-2, 76);
             label13.Name = "label13";
             label13.Size = new Size(287, 47);
@@ -747,7 +748,7 @@
             // label11
             // 
             label11.Anchor = AnchorStyles.Left;
-            label11.Font = new Font("Verdana", 14F, FontStyle.Regular, GraphicsUnit.Point);
+            label11.Font = new Font("Times New Roman", 13F, FontStyle.Regular, GraphicsUnit.Point);
             label11.Location = new Point(0, 8);
             label11.Name = "label11";
             label11.Size = new Size(129, 35);
@@ -757,7 +758,7 @@
             // label15
             // 
             label15.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-            label15.Font = new Font("Verdana", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label15.Font = new Font("Times New Roman", 13F, FontStyle.Regular, GraphicsUnit.Point);
             label15.Location = new Point(-5, 158);
             label15.Name = "label15";
             label15.Size = new Size(291, 29);
@@ -782,7 +783,7 @@
             // label18
             // 
             label18.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
-            label18.Font = new Font("Verdana", 11F, FontStyle.Regular, GraphicsUnit.Point);
+            label18.Font = new Font("Times New Roman", 13F, FontStyle.Regular, GraphicsUnit.Point);
             label18.ForeColor = Color.Black;
             label18.Location = new Point(6, 141);
             label18.Name = "label18";
@@ -795,7 +796,7 @@
             // label19
             // 
             label19.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-            label19.Font = new Font("Verdana", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label19.Font = new Font("Times New Roman", 13F, FontStyle.Regular, GraphicsUnit.Point);
             label19.ForeColor = Color.Black;
             label19.Location = new Point(-3, 158);
             label19.Name = "label19";
@@ -807,7 +808,7 @@
             // label17
             // 
             label17.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-            label17.Font = new Font("Verdana", 14F, FontStyle.Regular, GraphicsUnit.Point);
+            label17.Font = new Font("Times New Roman", 13F, FontStyle.Regular, GraphicsUnit.Point);
             label17.ForeColor = Color.Black;
             label17.Location = new Point(0, 76);
             label17.Name = "label17";
@@ -830,7 +831,7 @@
             // label16
             // 
             label16.Anchor = AnchorStyles.Left;
-            label16.Font = new Font("Verdana", 14F, FontStyle.Regular, GraphicsUnit.Point);
+            label16.Font = new Font("Times New Roman", 13F, FontStyle.Regular, GraphicsUnit.Point);
             label16.ForeColor = Color.Black;
             label16.Location = new Point(0, 8);
             label16.Name = "label16";
@@ -882,7 +883,7 @@
         private FontAwesome.Sharp.IconButton iconButton7;
         private FontAwesome.Sharp.IconButton iconButton6;
         private FontAwesome.Sharp.IconButton iconButton5;
-        private FontAwesome.Sharp.IconButton iconButton4;
+        private FontAwesome.Sharp.IconButton btnLaptos;
         private FontAwesome.Sharp.IconButton btnOpenBook;
         private Label label1;
         private FontAwesome.Sharp.IconButton iconButton10;

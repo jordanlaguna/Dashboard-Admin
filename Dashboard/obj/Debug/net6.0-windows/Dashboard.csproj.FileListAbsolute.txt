@@ -40,3 +40,4 @@ C:\Users\jorda\Documents\visual\Dashboard\Dashboard\obj\Debug\net6.0-windows\Das
 C:\Users\jorda\Documents\visual\Dashboard\Dashboard\obj\Debug\net6.0-windows\ref\Dashboard.dll
 C:\Users\jorda\Documents\visual\Dashboard\Dashboard\obj\Debug\net6.0-windows\Dashboard.sourcelink.json
 C:\Users\jorda\Documents\visual\Dashboard\Dashboard\obj\Debug\net6.0-windows\Dashboard.UserForm.resources
+C:\Users\jorda\Documents\visual\Dashboard\Dashboard\obj\Debug\net6.0-windows\Dashboard.ComputerForm.resources

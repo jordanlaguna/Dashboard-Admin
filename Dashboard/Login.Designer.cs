@@ -143,7 +143,7 @@
             btnLogin.FlatAppearance.BorderColor = Color.DarkSlateGray;
             btnLogin.FlatAppearance.BorderSize = 30;
             btnLogin.FlatStyle = FlatStyle.Popup;
-            btnLogin.Font = new Font("Verdana", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            btnLogin.Font = new Font("Times New Roman", 13F, FontStyle.Regular, GraphicsUnit.Point);
             btnLogin.ForeColor = Color.White;
             btnLogin.Location = new Point(271, 816);
             btnLogin.Margin = new Padding(0);
@@ -233,7 +233,7 @@
             txtEmail.Anchor = AnchorStyles.Top;
             txtEmail.BackColor = SystemColors.Control;
             txtEmail.BorderStyle = BorderStyle.None;
-            txtEmail.Font = new Font("Verdana", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            txtEmail.Font = new Font("Times New Roman", 14F, FontStyle.Regular, GraphicsUnit.Point);
             txtEmail.Location = new Point(137, 36);
             txtEmail.Multiline = true;
             txtEmail.Name = "txtEmail";
@@ -278,7 +278,7 @@
             txtPassword.Anchor = AnchorStyles.Top;
             txtPassword.BackColor = SystemColors.Control;
             txtPassword.BorderStyle = BorderStyle.None;
-            txtPassword.Font = new Font("Verdana", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            txtPassword.Font = new Font("Times New Roman", 14F, FontStyle.Regular, GraphicsUnit.Point);
             txtPassword.ImeMode = ImeMode.NoControl;
             txtPassword.Location = new Point(137, 36);
             txtPassword.Multiline = true;
@@ -302,7 +302,7 @@
             // 
             label2.Anchor = AnchorStyles.Top;
             label2.Cursor = Cursors.Hand;
-            label2.Font = new Font("Verdana", 13F, FontStyle.Underline, GraphicsUnit.Point);
+            label2.Font = new Font("Times New Roman", 14F, FontStyle.Underline, GraphicsUnit.Point);
             label2.Location = new Point(145, 15);
             label2.Name = "label2";
             label2.Size = new Size(586, 38);
@@ -323,10 +323,10 @@
             // 
             label3.Anchor = AnchorStyles.Top;
             label3.Cursor = Cursors.Hand;
-            label3.Font = new Font("Verdana", 13F, FontStyle.Regular, GraphicsUnit.Point);
-            label3.Location = new Point(206, 3);
+            label3.Font = new Font("Times New Roman", 14F, FontStyle.Regular, GraphicsUnit.Point);
+            label3.Location = new Point(184, 3);
             label3.Name = "label3";
-            label3.Size = new Size(528, 38);
+            label3.Size = new Size(550, 38);
             label3.TabIndex = 3;
             label3.Text = "Registrarse aquí";
             label3.TextAlign = ContentAlignment.MiddleCenter;
@@ -394,7 +394,7 @@
             // label1
             // 
             label1.Anchor = AnchorStyles.Top;
-            label1.Font = new Font("Verdana", 18F, FontStyle.Regular, GraphicsUnit.Point);
+            label1.Font = new Font("Times New Roman", 19F, FontStyle.Regular, GraphicsUnit.Point);
             label1.Location = new Point(3, 62);
             label1.Name = "label1";
             label1.Size = new Size(728, 44);
